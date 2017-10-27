@@ -13,7 +13,7 @@
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2014-2016 Rubycoin Developers</source>
+        <source>Copyright © 2014-2018 Rubycoin Developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -100,17 +100,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+65"/>
+        <location filename="../addressbookpage.cpp" line="+66"/>
         <source>Copy &amp;Label</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;Edit</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+250"/>
+        <location line="+248"/>
         <source>Export Address Book Data</source>
         <translation type="unfinished"/>
     </message>
@@ -433,12 +433,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-214"/>
-        <location line="+551"/>
+        <location line="+555"/>
         <source>Rubycoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-551"/>
+        <location line="-555"/>
         <source>Wallet</source>
         <translation type="unfinished"/>
     </message>
@@ -468,7 +468,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+32"/>
         <source>&amp;File</source>
         <translation type="unfinished"/>
     </message>
@@ -530,7 +530,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-808"/>
+        <location line="-812"/>
         <source>&amp;Dashboard</source>
         <translation type="unfinished"/>
     </message>
@@ -550,7 +550,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+273"/>
+        <location line="+277"/>
         <source>Up to date</source>
         <translation type="unfinished"/>
     </message>
@@ -722,7 +722,7 @@ Address: %4
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+110"/>
+        <location filename="../clientmodel.cpp" line="+119"/>
         <source>Network Alert</source>
         <translation type="unfinished"/>
     </message>
@@ -750,11 +750,6 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+32"/>
-        <source>Priority:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <location line="+48"/>
         <source>Fee:</source>
         <translation type="unfinished"/>
@@ -765,7 +760,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="+552"/>
+        <location filename="../coincontroldialog.cpp" line="+493"/>
         <source>no</source>
         <translation type="unfinished"/>
     </message>
@@ -830,7 +825,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="-515"/>
+        <location filename="../coincontroldialog.cpp" line="-456"/>
         <source>Copy address</source>
         <translation type="unfinished"/>
     </message>
@@ -872,11 +867,6 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Copy priority</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Copy low output</source>
         <translation type="unfinished"/>
     </message>
@@ -886,42 +876,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+317"/>
-        <source>highest</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>high</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>medium-high</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>medium</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>low-medium</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>low</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>lowest</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+155"/>
+        <location line="+423"/>
         <source>DUST</source>
         <translation type="unfinished"/>
     </message>
@@ -931,21 +886,12 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+9"/>
         <source>This label turns red, if the transaction size is bigger than 10000 bytes.
 
  This means a fee of at least %1 per kb is required.
 
  Can vary +/- 1 Byte per input.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transactions with higher priority get more likely into a block.
-
-This label turns red, if the priority is smaller than &quot;medium&quot;.
-
- This means a fee of at least %1 per kb is required.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -965,8 +911,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+36"/>
-        <location line="+66"/>
+        <location line="+35"/>
+        <location line="+58"/>
         <source>(no label)</source>
         <translation type="unfinished"/>
     </message>
@@ -1107,7 +1053,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.0001 recommended.</source>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1151,17 +1097,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Connect to the Rubycoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+9"/>
+        <location line="+19"/>
         <source>Proxy &amp;IP:</source>
         <translation type="unfinished"/>
     </message>
@@ -1181,17 +1117,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
+        <location line="-57"/>
+        <source>Connect to the Rubycoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
+        <location line="+3"/>
+        <source>&amp;Connect through SOCKS5 proxy:</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+90"/>
         <source>&amp;Window</source>
         <translation type="unfinished"/>
     </message>
@@ -1252,16 +1188,6 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Whether to select the coin outputs randomly or with minimal coin age.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Minimize weight consumption (experimental)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>Use red visual theme (requires restart)</source>
         <translation type="unfinished"/>
     </message>
@@ -1281,12 +1207,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
+        <location filename="../optionsdialog.cpp" line="+47"/>
         <source>default</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+149"/>
+        <location line="+147"/>
         <location line="+9"/>
         <source>Warning</source>
         <translation type="unfinished"/>
@@ -1530,11 +1456,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+64"/>
+        <location filename="../rpcconsole.cpp" line="+352"/>
         <source>In:</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+80"/>
+        <location filename="../rpcconsole.cpp" line="+1"/>
         <source>Out:</source>
         <translation type="unfinished"/>
     </message>
@@ -1599,7 +1527,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="+325"/>
+        <location filename="../rpcconsole.cpp" line="-28"/>
         <source>Welcome to the Rubycoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
@@ -1614,7 +1542,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+134"/>
         <source>%1 B</source>
         <translation type="unfinished"/>
     </message>
@@ -1653,7 +1581,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+181"/>
+        <location filename="../sendcoinsdialog.cpp" line="+179"/>
         <location line="+5"/>
         <location line="+5"/>
         <location line="+5"/>
@@ -1705,25 +1633,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+22"/>
-        <location line="+86"/>
-        <location line="+86"/>
-        <location line="+32"/>
-        <source>0.00 BC</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-191"/>
-        <source>Priority:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>medium</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+32"/>
+        <location line="+54"/>
         <source>Fee:</source>
         <translation type="unfinished"/>
     </message>
@@ -1778,12 +1688,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+16"/>
-        <source>123.456 BC</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+31"/>
+        <location line="+47"/>
         <source>Confirm the send action</source>
         <translation type="unfinished"/>
     </message>
@@ -1793,7 +1698,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-173"/>
+        <location filename="../sendcoinsdialog.cpp" line="-171"/>
         <source>Enter a Rubycoin address (e.g. RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</source>
         <translation type="unfinished"/>
     </message>
@@ -1824,11 +1729,6 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Copy priority</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Copy low output</source>
         <translation type="unfinished"/>
     </message>
@@ -1838,7 +1738,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+86"/>
+        <location line="+85"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
         <translation type="unfinished"/>
     </message>
@@ -1893,7 +1793,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+247"/>
+        <location line="+241"/>
         <source>WARNING: Invalid Rubycoin address</source>
         <translation type="unfinished"/>
     </message>
@@ -2086,7 +1986,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+82"/>
+        <location line="+85"/>
         <location line="+81"/>
         <source>The entered address is invalid.</source>
         <translation type="unfinished"/>
@@ -2214,19 +2114,19 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+5"/>
-        <location line="+17"/>
+        <location line="+13"/>
         <source>From</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+22"/>
+        <location line="+19"/>
         <location line="+58"/>
         <source>To</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-77"/>
+        <location line="-74"/>
         <location line="+2"/>
         <source>own address</source>
         <translation type="unfinished"/>
@@ -2237,7 +2137,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+34"/>
         <location line="+12"/>
         <location line="+45"/>
         <location line="+17"/>
@@ -2324,7 +2224,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-209"/>
+        <location line="-202"/>
         <source>, has not been successfully broadcast yet</source>
         <translation type="unfinished"/>
     </message>
@@ -2334,7 +2234,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message>
-        <location line="+71"/>
+        <location line="+67"/>
         <source>unknown</source>
         <translation type="unfinished"/>
     </message>
@@ -2652,7 +2552,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+208"/>
+        <location filename="../walletmodel.cpp" line="+212"/>
         <source>Sending...</source>
         <translation type="unfinished"/>
     </message>
@@ -2660,7 +2560,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+173"/>
+        <location filename="../bitcoinstrings.cpp" line="+8"/>
         <source>Rubycoin version</source>
         <translation type="unfinished"/>
     </message>
@@ -2685,7 +2585,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-147"/>
+        <location line="+1"/>
         <source>Options:</source>
         <translation type="unfinished"/>
     </message>
@@ -2710,7 +2610,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-25"/>
+        <location line="+163"/>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
@@ -2725,7 +2625,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="-161"/>
         <source>Set database cache size in megabytes (default: 25)</source>
         <translation type="unfinished"/>
     </message>
@@ -2735,7 +2635,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+5"/>
         <source>Listen for connections on &lt;port&gt; (default: 5937 or testnet: 55937)</source>
         <translation type="unfinished"/>
     </message>
@@ -2770,7 +2670,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+4"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation type="unfinished"/>
     </message>
@@ -2780,17 +2680,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-37"/>
+        <location line="+153"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+65"/>
+        <location line="-126"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 5938 or testnet: 55938)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-16"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation type="unfinished"/>
     </message>
@@ -2805,37 +2705,32 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-23"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-29"/>
+        <location line="+160"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+96"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+12"/>
+        <location line="-84"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-103"/>
+        <location line="+46"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Rubycoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+132"/>
+        <location line="-19"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-18"/>
+        <location line="-16"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation type="unfinished"/>
     </message>
@@ -2850,7 +2745,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-69"/>
+        <location line="-66"/>
         <source>Connect only to the specified node(s)</source>
         <translation type="unfinished"/>
     </message>
@@ -2860,17 +2755,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+101"/>
+        <location line="+97"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-91"/>
-        <source>Sync checkpoints policy (default: strict)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+89"/>
+        <location line="-2"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
@@ -2880,7 +2770,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-88"/>
+        <location line="-85"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
         <translation type="unfinished"/>
     </message>
@@ -2890,37 +2780,27 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-16"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+30"/>
         <source>Prepend debug output with timestamp</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+36"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-81"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+42"/>
+        <location line="-34"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+30"/>
+        <location line="+33"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
         <translation type="unfinished"/>
     </message>
@@ -2930,23 +2810,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-35"/>
+        <location line="-33"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-43"/>
+        <location line="-41"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+116"/>
-        <source>Unable to sign checkpoint, wrong checkpointkey?
-</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-86"/>
+        <location line="+28"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation type="unfinished"/>
     </message>
@@ -2956,22 +2830,22 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-25"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="+45"/>
         <source>Username for JSON-RPC connections</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+51"/>
+        <location line="+50"/>
         <source>Verifying database integrity...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+43"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
         <translation type="unfinished"/>
     </message>
@@ -2991,7 +2865,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-15"/>
         <source>Warning</source>
         <translation type="unfinished"/>
     </message>
@@ -3001,32 +2875,32 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+2"/>
-        <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-1"/>
+        <location line="-7"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-54"/>
+        <location line="-23"/>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-56"/>
+        <location line="-55"/>
         <source>Password for JSON-RPC connections</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-32"/>
+        <location line="-47"/>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+17"/>
         <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+12"/>
         <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
         <translation type="unfinished"/>
     </message>
@@ -3051,7 +2925,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+8"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
         <translation type="unfinished"/>
     </message>
@@ -3086,7 +2960,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
         <translation type="unfinished"/>
     </message>
@@ -3116,7 +2990,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+1"/>
+        <source>Keep at most &lt;n&gt; MiB of unconnectable blocks in memory (default: %u)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation type="unfinished"/>
     </message>
@@ -3131,17 +3010,27 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+5"/>
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+8"/>
         <source>Initialization sanity check failed. Rubycoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+50"/>
+        <location line="+20"/>
+        <source>Error loading block database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+29"/>
         <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="-14"/>
         <source>Error: Disk space is low!</source>
         <translation type="unfinished"/>
     </message>
@@ -3151,47 +3040,32 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+3"/>
-        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-174"/>
+        <location line="-135"/>
         <source>This help message</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+104"/>
+        <location line="+100"/>
         <source>Wallet %s resides outside data directory %s.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+46"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-133"/>
-        <source>Connect through socks proxy</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
+        <location line="-136"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+121"/>
         <source>Loading addresses...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-12"/>
-        <source>Error loading blkindex.dat</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="-10"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
         <translation type="unfinished"/>
     </message>
@@ -3211,7 +3085,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-16"/>
+        <location line="-15"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
@@ -3221,12 +3095,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
+        <location line="+3"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
@@ -3236,12 +3105,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-23"/>
+        <location line="-22"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+59"/>
         <source>Sending...</source>
         <translation type="unfinished"/>
     </message>
@@ -3256,38 +3125,28 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-40"/>
+        <location line="-41"/>
         <source>Loading block index...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-110"/>
+        <location line="-105"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+125"/>
+        <location line="+131"/>
         <source>Unable to bind to %s on this computer. Rubycoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-101"/>
+        <location line="-108"/>
         <source>Fee per KB to add to transactions you send</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+34"/>
-        <source>Minimize weight consumption (experimental) (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
+        <location line="+40"/>
         <source>How many blocks to check at startup (default: 500, 0 = all)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3301,7 +3160,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+8"/>
         <source>Invalid amount for -mininput=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation type="unfinished"/>
     </message>
@@ -3316,7 +3175,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+15"/>
         <source>Loading wallet...</source>
         <translation type="unfinished"/>
     </message>
@@ -3341,17 +3200,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="+33"/>
         <source>To use the %s option</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+188"/>
+        <location line="-27"/>
         <source>Error</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="-18"/>
+        <location line="+22"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>

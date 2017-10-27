@@ -13,7 +13,7 @@
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2014-2016 Rubycoin Developers</source>
+        <source>Copyright © 2014-2018 Rubycoin Developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -57,7 +57,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-43"/>
         <source>These are your Rubycoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>これは支払いを受けるためのブラックコインのアドレス。支払い管理をするのため、各送信者へ、それぞれのアドレスを伝えたほうがいいです。</translation>
+        <translation>これは支払いを受けるためのルビーコインのアドレス。支払い管理をするのため、各送信者へ、それぞれのアドレスを伝えたほうがいいです。</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -100,17 +100,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>削除</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+65"/>
+        <location filename="../addressbookpage.cpp" line="+66"/>
         <source>Copy &amp;Label</source>
         <translation>ラベルをコピー (&amp;L)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;Edit</source>
         <translation>編集 (&amp;E)</translation>
     </message>
     <message>
-        <location line="+250"/>
+        <location line="+248"/>
         <source>Export Address Book Data</source>
         <translation>アドレス帳のデータを書き出す</translation>
     </message>
@@ -255,7 +255,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+82"/>
         <source>Rubycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>ただいま、暗号化手順を完成するため、ブラックコインQTは閉じます。尚、ウォレットを暗号化をされたにしても、PCのウイルスから盗難防止の報償できないことを、ご理解をお願い足します。</translation>
+        <translation>ただいま、暗号化手順を完成するため、ルビーコインQTは閉じます。尚、ウォレットを暗号化をされたにしても、PCのウイルスから盗難防止の報償できないことを、ご理解をお願い足します。</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -349,7 +349,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+4"/>
         <source>Show information about Rubycoin</source>
-        <translation>ブラックコインの情報を表示</translation>
+        <translation>ルビーコインの情報を表示する</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -389,12 +389,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-55"/>
         <source>Send coins to a Rubycoin address</source>
-        <translation>ブラックコインアドレスへコインを送る</translation>
+        <translation>ルビーコインアドレスへコインを送る</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>Modify configuration options for Rubycoin</source>
-        <translation>ブラックコインの設定を変化する</translation>
+        <translation>ルビーコインの設定を変化する</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -435,7 +435,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-214"/>
         <location line="+555"/>
         <source>Rubycoin</source>
-        <translation>ブラックコイン</translation>
+        <translation>ルビーコイン</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -445,7 +445,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+193"/>
         <source>&amp;About Rubycoin</source>
-        <translation>ブラックコインについて</translation>
+        <translation>ルビーコインについて</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -497,12 +497,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+0"/>
         <location line="+58"/>
         <source>Rubycoin client</source>
-        <translation>ブラックコインクライアントソフトウェア</translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+70"/>
         <source>%n active connection(s) to Rubycoin network</source>
-        <translation><numerusform>ブラックコインネットワークへの%n アクティブな接続</numerusform></translation>
+        <translation><numerusform>ルビーコインネットワークへの%n アクティブな接続</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -596,7 +596,7 @@ Address: %4
         <location line="-15"/>
         <location line="+15"/>
         <source>URI can not be parsed! This can be caused by an invalid Rubycoin address or malformed URI parameters.</source>
-        <translation>URIのパーズができませんでした！。原因は無効なブラックコインアドレスか不正なURIパラメータ。</translation>
+        <translation>URIのパーズができませんでした！。原因は無効なルビーコインアドレスか不正なURIパラメータ。</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -725,7 +725,7 @@ Address: %4
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+110"/>
+        <location filename="../clientmodel.cpp" line="+119"/>
         <source>Network Alert</source>
         <translation>ネットワーク警告</translation>
     </message>
@@ -753,11 +753,6 @@ Address: %4
         <translation>総額:</translation>
     </message>
     <message>
-        <location line="+32"/>
-        <source>Priority:</source>
-        <translation>優先:</translation>
-    </message>
-    <message>
         <location line="+48"/>
         <source>Fee:</source>
         <translation>料金:</translation>
@@ -768,7 +763,7 @@ Address: %4
         <translation>アウトプット低い:</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="+537"/>
+        <location filename="../coincontroldialog.cpp" line="+493"/>
         <source>no</source>
         <translation>いいえ</translation>
     </message>
@@ -833,7 +828,7 @@ Address: %4
         <translation>優先</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="-500"/>
+        <location filename="../coincontroldialog.cpp" line="-456"/>
         <source>Copy address</source>
         <translation>アドレスをコピー</translation>
     </message>
@@ -875,11 +870,6 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Copy priority</source>
-        <translation>優先をコピー</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Copy low output</source>
         <translation>アウトプット低いをコピー</translation>
     </message>
@@ -889,42 +879,7 @@ Address: %4
         <translation>お釣りをコピー</translation>
     </message>
     <message>
-        <location line="+317"/>
-        <source>highest</source>
-        <translation>最高</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>high</source>
-        <translation>高い</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>medium-high</source>
-        <translation>中高</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>medium</source>
-        <translation>中</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>low-medium</source>
-        <translation>中低</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>low</source>
-        <translation>低い</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>lowest</source>
-        <translation>最低</translation>
-    </message>
-    <message>
-        <location line="+140"/>
+        <location line="+423"/>
         <source>DUST</source>
         <translation>ほこり</translation>
     </message>
@@ -934,7 +889,7 @@ Address: %4
         <translation>はい</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+9"/>
         <source>This label turns red, if the transaction size is bigger than 10000 bytes.
 
  This means a fee of at least %1 per kb is required.
@@ -945,19 +900,6 @@ Address: %4
 少なくとも%1 KBあたりの料金は必要となります。
 
 入力データによって、料金の+/-1 バイトが可能です。</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transactions with higher priority get more likely into a block.
-
-This label turns red, if the priority is smaller than &quot;medium&quot;.
-
- This means a fee of at least %1 per kb is required.</source>
-        <translation>高い優先ありの処理の方はブロックに書き込み可能性が高い。
-
-このラベルは優先の設定は中より低いです。
-
-少なくとも%1 KBあたりの料金は必要となります。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -982,8 +924,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 少なくとも%2の料金は必要となります。</translation>
     </message>
     <message>
-        <location line="+36"/>
-        <location line="+66"/>
+        <location line="+35"/>
+        <location line="+58"/>
         <source>(no label)</source>
         <translation>（ラベル無し）</translation>
     </message>
@@ -1053,7 +995,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Rubycoin address.</source>
-        <translation>入力されたアドレス &quot;%1&quot; 、有効なブラックコインアドレスではない。</translation>
+        <translation>入力されたアドレス &quot;%1&quot; 、有効なルビーコインアドレスではない。</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1072,7 +1014,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
         <source>Rubycoin-Qt</source>
-        <translation>ブラックコインQT</translation>
+        <translation>ルビーコインQT</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1124,7 +1066,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.0001 recommended.</source>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
         <translation>手続きを早めるためのオプショナル料金。だいたいの処理は1KB。料金の0.01が勧めです。</translation>
     </message>
     <message>
@@ -1145,12 +1087,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+31"/>
         <source>Automatically start Rubycoin after logging in to the system.</source>
-        <translation>システムのログイン次第、自動的にブラックコインをスタート。</translation>
+        <translation>システムのログイン次第、自動的にルビーコインをスタート。</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start Rubycoin on system login</source>
-        <translation>システムログイン次第、ブラックコインをスタート</translation>
+        <translation>システムログイン次第、ルビーコインをスタート</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1160,7 +1102,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+6"/>
         <source>Automatically open the Rubycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動的にルーターでブラックコインクライエントソフトウェアのポートを開く。ルーターはUPnPのサポートあり、UPnPを有効にするならできる。</translation>
+        <translation>自動的にルーターでルビーコインクライエントソフトウェアのポートを開く。ルーターはUPnPのサポートあり、UPnPを有効にするならできる。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1259,16 +1201,6 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Whether to select the coin outputs randomly or with minimal coin age.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Minimize weight consumption (experimental)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>Use red visual theme (requires restart)</source>
         <translation type="unfinished"/>
     </message>
@@ -1293,7 +1225,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>初期値</translation>
     </message>
     <message>
-        <location line="+148"/>
+        <location line="+147"/>
         <location line="+9"/>
         <source>Warning</source>
         <translation>警告</translation>
@@ -1302,7 +1234,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting Rubycoin.</source>
-        <translation>この設定はブラックコインをリスタートした後に有効する。</translation>
+        <translation>この設定はルビーコインをリスタートした後に有効する。</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1321,7 +1253,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+46"/>
         <location line="+247"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Rubycoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示されている情報は時間遅れている。接続したら、ウォレットは自動的にブラックコインネットワークと同期しますが過程は完了してません。</translation>
+        <translation>表示されている情報は時間遅れている。接続したら、ウォレットは自動的にルビーコインネットワークと同期しますが過程は完了してません。</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1537,11 +1469,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+64"/>
+        <location filename="../rpcconsole.cpp" line="+352"/>
         <source>In:</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+80"/>
+        <location filename="../rpcconsole.cpp" line="+1"/>
         <source>Out:</source>
         <translation type="unfinished"/>
     </message>
@@ -1563,7 +1497,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+7"/>
         <source>Show the Rubycoin-Qt help message to get a list with possible Rubycoin command-line options.</source>
-        <translation>ブラックコインQTのコマンドラインのヘルプ情報を表示する。</translation>
+        <translation>ルビーコインQTのコマンドラインのヘルプ情報を表示する。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1583,12 +1517,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-104"/>
         <source>Rubycoin - Debug window</source>
-        <translation>ブラックコイン：デバッグウインドウ</translation>
+        <translation>ルビーコイン：デバッグウインドウ</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Rubycoin Core</source>
-        <translation>ブラックコインコア</translation>
+        <translation>ルビーコインコア</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1606,9 +1540,9 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>コンソールをクリア</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="+325"/>
+        <location filename="../rpcconsole.cpp" line="-28"/>
         <source>Welcome to the Rubycoin RPC console.</source>
-        <translation>ブラックコインRPCコンソールへようこそ。</translation>
+        <translation>ルビーコインRPCコンソールへようこそ。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1621,7 +1555,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>使用可能なコマンドを見るには &lt;b&gt;help&lt;/b&gt; と入力します。</translation>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+134"/>
         <source>%1 B</source>
         <translation type="unfinished"/>
     </message>
@@ -1660,7 +1594,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+182"/>
+        <location filename="../sendcoinsdialog.cpp" line="+179"/>
         <location line="+5"/>
         <location line="+5"/>
         <location line="+5"/>
@@ -1712,17 +1646,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>総額:</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Priority:</source>
-        <translation>優先:</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>medium</source>
-        <translation>中</translation>
-    </message>
-    <message>
-        <location line="+32"/>
+        <location line="+54"/>
         <source>Fee:</source>
         <translation>料金:</translation>
     </message>
@@ -1787,9 +1711,9 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>送る (&amp;e)</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-174"/>
+        <location filename="../sendcoinsdialog.cpp" line="-171"/>
         <source>Enter a Rubycoin address (e.g. RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</source>
-        <translation>ブラックコインアドレスの入力 (例；RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
+        <translation>ルビーコインアドレスの入力 (例；RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1818,11 +1742,6 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Copy priority</source>
-        <translation>優先をコピー</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Copy low output</source>
         <translation>アウトプット低いをコピー</translation>
     </message>
@@ -1832,7 +1751,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>お釣りをコピー</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+85"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; から %2 (%3)に</translation>
     </message>
@@ -1887,9 +1806,9 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>エラー：処理は拒否されました。ウォレットのコインをすでに費やした可能性で、wallet.datのコピーで費やしたが、現行のwallet.datとはアップデートされていない。</translation>
     </message>
     <message>
-        <location line="+247"/>
+        <location line="+241"/>
         <source>WARNING: Invalid Rubycoin address</source>
-        <translation>警告：無効なブラックコインアドレス</translation>
+        <translation>警告：無効なルビーコインアドレス</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1963,7 +1882,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Rubycoin address (e.g. RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</source>
-        <translation>ブラックコインアドレスの入力 (例；RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
+        <translation>ルビーコインアドレスの入力 (例；RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
     </message>
 </context>
 <context>
@@ -2067,7 +1986,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a Rubycoin address (e.g. RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</source>
-        <translation>ブラックコインのアドレスを入力(例：RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
+        <translation>ルビーコインのアドレスを入力(例：RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2077,7 +1996,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Enter Rubycoin signature</source>
-        <translation>ブラックコインのデジタル署名を入力</translation>
+        <translation>ルビーコインのデジタル署名を入力</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2646,7 +2565,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+208"/>
+        <location filename="../walletmodel.cpp" line="+212"/>
         <source>Sending...</source>
         <translation>通信中...</translation>
     </message>
@@ -2654,9 +2573,9 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+173"/>
+        <location filename="../bitcoinstrings.cpp" line="+8"/>
         <source>Rubycoin version</source>
-        <translation>ブラックコインバージョン</translation>
+        <translation>ルビーコインバージョン</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2666,7 +2585,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Send command to -server or rubycoind</source>
-        <translation>-server か rubycoindへコマンドを送る。</translation>
+        <translation>-server か Rubycoindへコマンドを送る。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2679,7 +2598,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>コマンドのヘルプ</translation>
     </message>
     <message>
-        <location line="-147"/>
+        <location line="+1"/>
         <source>Options:</source>
         <translation>オプション:</translation>
     </message>
@@ -2691,7 +2610,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Specify pid file (default: rubycoind.pid)</source>
-        <translation>pid ファイルを特定する (デフォルト: rubycoind.pid)</translation>
+        <translation>pid ファイルを特定する (デフォルト: Rubycoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2704,7 +2623,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>データ ディレクトリの指定</translation>
     </message>
     <message>
-        <location line="-25"/>
+        <location line="+163"/>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
@@ -2719,7 +2638,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="-161"/>
         <source>Set database cache size in megabytes (default: 25)</source>
         <translation>データベースのキャッシュサイズをメガバイトで設定 (初期値: 25)</translation>
     </message>
@@ -2764,7 +2683,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+4"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>不正なピアを切断するためのしきい値 (初期値: 100)</translation>
     </message>
@@ -2774,12 +2693,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>不正なピアを再接続するまでの秒数 (初期値: 86400)</translation>
     </message>
     <message>
-        <location line="-36"/>
+        <location line="+153"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>IPv4 でリスンする RPC ポート %u の設定中にエラーが発生しました: %s</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="-126"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 5938 or testnet: 55938)</source>
         <translation>&lt;port&gt; で JSON-RPC 接続をリスン (デフォルト: 5938かtestnet は 55938)</translation>
     </message>
@@ -2799,42 +2718,37 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>テストのためのネットワークを使用</translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-23"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>外部からの接続を許可 (初期値:  -proxy または -connect を使用していない場合は1)</translation>
     </message>
     <message>
-        <location line="-28"/>
+        <location line="+160"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>IPv6 でリスンする RPC ポート %u の設定中にエラーが発生したので IPv4 に切り替えます: %s</translation>
     </message>
     <message>
-        <location line="+94"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>バイトで、最優先、低料金の処理の最大サイズの設定(デファルト：27000)</translation>
-    </message>
-    <message>
-        <location line="+15"/>
+        <location line="-84"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>警告: -paytxfee が非常に高く設定されています! これは処理を送信する場合に支払う取引手数料です。</translation>
     </message>
     <message>
-        <location line="-104"/>
+        <location line="+46"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Rubycoin will not work properly.</source>
-        <translation> 警告：コンピュータの日付と時間を調べてください。時間ずらしかったばい、ブラックコイン QTは正しく行動しない。</translation>
+        <translation> 警告：コンピュータの日付と時間を調べてください。時間ずらしかったばい、ルビーコイン QTは正しく行動しない。</translation>
     </message>
     <message>
-        <location line="+132"/>
+        <location line="-19"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>警告: wallet.dat の読み込みエラー! すべてのキーは正しく読み取れますが、処理のデータやアドレス帳のエントリが失われたか、正しくない可能性があります。</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-16"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>警告: wallet.dat のデータはの汚染で、でデータを復旧しました！ オリジナルの wallet.dat は wallet.{timestamp}.bak として %s に保存されました; もしもあなたの残高や処理が正しくないばい、バックアップから復元してください。</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-31"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>壊れた wallet.dat から秘密鍵を復旧することを試す</translation>
     </message>
@@ -2844,7 +2758,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>ブロック作成オプション:</translation>
     </message>
     <message>
-        <location line="-68"/>
+        <location line="-66"/>
         <source>Connect only to the specified node(s)</source>
         <translation>指定したノードだけに接続</translation>
     </message>
@@ -2854,17 +2768,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>自分の IP アドレスを発見 (初期値:  リスン中と -externalip を使用していない場合は1)</translation>
     </message>
     <message>
-        <location line="+102"/>
+        <location line="+97"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>ポートのリスンに失敗しました。必要であれば -listen=0 を使用してください。</translation>
     </message>
     <message>
-        <location line="-92"/>
-        <source>Sync checkpoints policy (default: strict)</source>
-        <translation>同期チェックポイント方針(デファルト：厳しい)</translation>
-    </message>
-    <message>
-        <location line="+90"/>
+        <location line="-2"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
         <translation>無効なTORアドレス: &apos;%s&apos;</translation>
     </message>
@@ -2874,7 +2783,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>-reservebalance=&lt;amount&gt;の額は無効です</translation>
     </message>
     <message>
-        <location line="-89"/>
+        <location line="-85"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
         <translation>接続毎の最大受信バッファ &lt;n&gt;*1000 バイト (初期値: 5000)</translation>
     </message>
@@ -2884,27 +2793,27 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>接続毎の最大送信バッファ &lt;n&gt;*1000 バイト (初期値: 1000)</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-16"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
         <translation>&lt;net&gt; (IPv4, IPv6, Tor) ネットワーク内のノードだけに接続する</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+30"/>
         <source>Prepend debug output with timestamp</source>
         <translation>デバッグのアウトプットはタイムスタンプで先頭に追加する</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+36"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL オプション: (SSLのセットアップ手順は Bitcoin Wiki をご覧下さい)</translation>
     </message>
     <message>
-        <location line="-38"/>
+        <location line="-34"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>トレース/デバッグ情報を debug.log ファイルの代わりにコンソールへ送る</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
         <translation>最大ブロックサイズをバイトで設定 (初期値: 250000)</translation>
     </message>
@@ -2914,24 +2823,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>最小ブロックサイズをバイトで設定 (初期値: 0)</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-33"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>クライアント起動時に debug.log ファイルを縮小 (初期値: -debug オプションを指定しない場合は1)</translation>
     </message>
     <message>
-        <location line="-42"/>
+        <location line="-41"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>接続のタイムアウトをミリセコンドで指定 (初期値: 5000)</translation>
     </message>
     <message>
-        <location line="+116"/>
-        <source>Unable to sign checkpoint, wrong checkpointkey?
-</source>
-        <translation>チェックポイントを署名できません。checkpointkeyは違いますか。
-</translation>
-    </message>
-    <message>
-        <location line="-87"/>
+        <location line="+28"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>リスン ポートの割当に UPnP を使用 (初期値: 0)</translation>
     </message>
@@ -2941,17 +2843,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>リスン ポートの割当に UPnP を使用 (初期値: リスン中は1)</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-25"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
         <translation>プロクシーでTORヒドゥンサービス(TOR Hidden Services)を接続する(デファルト：-proxyと同じ)</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+45"/>
         <source>Username for JSON-RPC connections</source>
         <translation>JSON-RPC 接続のユーザー名</translation>
     </message>
     <message>
-        <location line="+54"/>
+        <location line="+50"/>
         <source>Verifying database integrity...</source>
         <translation>データベースの保全性を確認最中...</translation>
     </message>
@@ -2976,7 +2878,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-15"/>
         <source>Warning</source>
         <translation type="unfinished"/>
     </message>
@@ -2986,27 +2888,22 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+2"/>
-        <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
-        <translation>警告：シンクロナイズドチェックポイント違反を検出したが、チェックポイントを飛ばした。</translation>
-    </message>
-    <message>
-        <location line="-1"/>
+        <location line="-7"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>警告: このバージョンは古いのでアップグレードが必要です!</translation>
     </message>
     <message>
-        <location line="-53"/>
+        <location line="-23"/>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat が壊れ、復旧に失敗しました</translation>
     </message>
     <message>
-        <location line="-59"/>
+        <location line="-55"/>
         <source>Password for JSON-RPC connections</source>
         <translation>JSON-RPC 接続のパスワード</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="-47"/>
         <source>Connect through SOCKS5 proxy</source>
         <translation type="unfinished"/>
     </message>
@@ -3016,7 +2913,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>他のノードと時刻の同期する。確な時刻のコンピューターのばい、無効する。例：NTP同期設定有効ある(デファルト：1)</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+12"/>
         <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
         <translation>処理を作ると、この額より少ない数字を無視する (デファルト：0.01)</translation>
     </message>
@@ -3076,7 +2973,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>変更するために、確認を必要とする (デファルト：0)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
         <translation>関連した警告をもらったら、コマンドを実行する (cmdの中で%sにメッセージを交換される)</translation>
     </message>
@@ -3106,7 +3003,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>外部 blk000?.dat ファイルからブロックを読み込む。</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+1"/>
+        <source>Keep at most &lt;n&gt; MiB of unconnectable blocks in memory (default: %u)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>JSON-RPC 接続に OpenSSL (https) を使用</translation>
     </message>
@@ -3131,17 +3033,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+20"/>
         <source>Error loading block database</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+29"/>
         <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
         <translation>エラー：アンロックされたウォレットは賭けるためだけで、処理を作られない。</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="-14"/>
         <source>Error: Disk space is low!</source>
         <translation type="unfinished"/>
     </message>
@@ -3151,32 +3053,27 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+3"/>
-        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation>警告：無効なチェックポイントを見つかりました！表示された処理は正しくない可能性がある！アップグレードするか、デベロッパーに報告する必要があります。</translation>
-    </message>
-    <message>
-        <location line="-174"/>
+        <location line="-135"/>
         <source>This help message</source>
         <translation>このヘルプ メッセージ</translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+100"/>
         <source>Wallet %s resides outside data directory %s.</source>
         <translation>%sウォレットはディレクトリ%sの外にあります。</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+46"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>このコンピュータの %s にバインドすることができません (バインドが返したエラーは %d, %s)</translation>
     </message>
     <message>
-        <location line="-131"/>
+        <location line="-136"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>-addnode, -seednode と -connect で DNS ルックアップを許可する</translation>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+121"/>
         <source>Loading addresses...</source>
         <translation>アドレスを読み込んでいます...</translation>
     </message>
@@ -3188,12 +3085,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
     <message>
         <location line="+4"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Rubycoin</source>
-        <translation>wallet.dat 読み込みエラー: 　ブラックコインQTの最新バージョンが必要です</translation>
+        <translation>wallet.dat 読み込みエラー: 　ルビーコインQTの最新バージョンが必要です</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Wallet needed to be rewritten: restart Rubycoin to complete</source>
-        <translation>ウォレットのデータをリライトしなければならい：ブラックコインQTをリスタートしてください</translation>
+        <translation>ウォレットのデータをリライトしなければならい：ルビーコインQTをリスタートしてください</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3201,7 +3098,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>wallet.dat 読み込みエラー</translation>
     </message>
     <message>
-        <location line="-16"/>
+        <location line="-15"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>無効な -proxy アドレス: &apos;%s&apos;</translation>
     </message>
@@ -3241,38 +3138,28 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>残高不足</translation>
     </message>
     <message>
-        <location line="-40"/>
+        <location line="-41"/>
         <source>Loading block index...</source>
         <translation>ブロック インデックスを読み込んでいます...</translation>
     </message>
     <message>
-        <location line="-111"/>
+        <location line="-105"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>接続するノードを追加し接続を持続するように試します</translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+131"/>
         <source>Unable to bind to %s on this computer. Rubycoin is probably already running.</source>
-        <translation>このコンピューターで%sに結ぶことができなかった。ブラックコインQTは、もう発行してるでしょう。</translation>
+        <translation>このコンピューターで%sに結ぶことができなかった。ルビーコインQTは、もう発行してるでしょう。</translation>
     </message>
     <message>
-        <location line="-102"/>
+        <location line="-108"/>
         <source>Fee per KB to add to transactions you send</source>
         <translation>送る処理を足して、KBあたりの料金</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <source>Minimize weight consumption (experimental) (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
+        <location line="+40"/>
         <source>How many blocks to check at startup (default: 500, 0 = all)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3301,7 +3188,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+15"/>
         <source>Loading wallet...</source>
         <translation>ウォレットを読み込んでいます...</translation>
     </message>
@@ -3326,17 +3213,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>読み込み完了</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="+33"/>
         <source>To use the %s option</source>
         <translation>%s オプションを使うには</translation>
     </message>
     <message>
-        <location line="+188"/>
+        <location line="-27"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location line="-18"/>
+        <location line="+22"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>

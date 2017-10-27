@@ -4,16 +4,16 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Rubycoin</source>
-        <translation type="unfinished"/>
+        <translation>关于红宝石硬币</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Rubycoin&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;红宝石硬币&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2014-2016 Rubycoin Developers</source>
+        <source>Copyright © 2014-2018 Rubycoin Developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -24,12 +24,7 @@ This is experimental software.
 Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (https://www.openssl.org/), cryptographic software written by Eric Young (eay@cryptsoft.com), and UPnP software written by Thomas Bernard.</source>
-        <translation>
-这是一套实验性软件。
-
-本软件是依据MIT/X11软件授权条款散布。详情见附带的COPYING或&lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
-
-本产品包含了由OpenSSL Project开发的OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;)和Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) 的加密软件，以及Thomas Bernard的UPnP软件。</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -62,7 +57,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-43"/>
         <source>These are your Rubycoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>这是您用来接收支付的黑币地址列表。为不同的支付方建立不同的地址以便于了解支付来源。</translation>
+        <translation>这是您用于接收付款的红宝石货币地址列表。为不同的付款人建立不同的地址，以了解付款的来源。</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -77,7 +72,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+7"/>
         <source>Sign a message to prove you own a Rubycoin address</source>
-        <translation>对信息进行签名以证明您对该黑币地址的所有权</translation>
+        <translation>签署信息以证明您对红宝石货币地址的所有权</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -92,7 +87,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-10"/>
         <source>Verify a message to ensure it was signed with a specified Rubycoin address</source>
-        <translation>验证信息以保证其经过指定黑币地址的签名</translation>
+        <translation>验证信息以确保它已经签署了指定的红宝石货币地址</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -105,17 +100,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>删除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+65"/>
+        <location filename="../addressbookpage.cpp" line="+66"/>
         <source>Copy &amp;Label</source>
         <translation>复制标签(&amp;L)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;Edit</source>
         <translation>编辑(&amp;E)</translation>
     </message>
     <message>
-        <location line="+250"/>
+        <location line="+248"/>
         <source>Export Address Book Data</source>
         <translation>导出地址簿数据</translation>
     </message>
@@ -228,7 +223,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>警告：如果您丢失了加密该钱包的密码，其中所有的黑币将会丢失！</translation>
+        <translation>警告：如果您丢失了加密该钱包的密码，其中所有的红宝石硬币将会丢失！</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -260,7 +255,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+82"/>
         <source>Rubycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>黑币客户端即将关闭以完成加密过程。请记住，加密钱包并不能完全防止您的电子货币被入侵您计算机的木马软件盗窃。</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+13"/>
@@ -354,7 +349,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+4"/>
         <source>Show information about Rubycoin</source>
-        <translation>显示关于黑币的信息</translation>
+        <translation>显示有关红宝石硬币的信息</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -394,7 +389,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-55"/>
         <source>Send coins to a Rubycoin address</source>
-        <translation>向指定的地址发送黑币</translation>
+        <translation>红宝石钱被发送到指定的地址</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -440,7 +435,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-214"/>
         <location line="+555"/>
         <source>Rubycoin</source>
-        <translation>黑币</translation>
+        <translation>红宝石硬币</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -450,7 +445,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+193"/>
         <source>&amp;About Rubycoin</source>
-        <translation>关于黑币(&amp;A)</translation>
+        <translation>关于红宝石硬币(&amp;A)</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -502,12 +497,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+0"/>
         <location line="+58"/>
         <source>Rubycoin client</source>
-        <translation>黑币客户端</translation>
+        <translation>红宝石硬币客户端</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
         <source>%n active connection(s) to Rubycoin network</source>
-        <translation><numerusform>与黑币网络建立了 %n 个连接</numerusform></translation>
+        <translation><numerusform>与红宝石硬币网络建立了 %n 个连接</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -532,7 +527,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+2"/>
         <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>未进行权益增值，因为钱包中没有成熟的黑币</translation>
+        <translation>未进行权益增值，因为钱包中没有成熟的红宝石硬币</translation>
     </message>
     <message>
         <location line="-812"/>
@@ -542,12 +537,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+6"/>
         <source>&amp;Receive</source>
-        <translation>接收黑币(&amp;R)</translation>
+        <translation>接收红宝石硬币(&amp;R)</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Send</source>
-        <translation>发送黑币(&amp;S)</translation>
+        <translation>发送红宝石硬币(&amp;S)</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -602,7 +597,7 @@ Address: %4
         <location line="-15"/>
         <location line="+15"/>
         <source>URI can not be parsed! This can be caused by an invalid Rubycoin address or malformed URI parameters.</source>
-        <translation>无法解析URI：无效的黑币地址或错误的URI参数。</translation>
+        <translation>无法解析URI：无效的红宝石硬币地址或错误的URI参数。</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -725,13 +720,13 @@ Address: %4
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
         <source>A fatal error occurred. Rubycoin can no longer continue safely and will quit.</source>
-        <translation>发生严重错误，黑币客户端即将关闭。</translation>
+        <translation>发生严重错误，红宝石硬币客户即将关闭。</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+110"/>
+        <location filename="../clientmodel.cpp" line="+119"/>
         <source>Network Alert</source>
         <translation>网络警报</translation>
     </message>
@@ -741,7 +736,7 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="+14"/>
         <source>Coin Control</source>
-        <translation>黑币控制</translation>
+        <translation>红宝石硬币控制</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -759,11 +754,6 @@ Address: %4
         <translation>金额：</translation>
     </message>
     <message>
-        <location line="+32"/>
-        <source>Priority:</source>
-        <translation>优先级：</translation>
-    </message>
-    <message>
         <location line="+48"/>
         <source>Fee:</source>
         <translation>费用：</translation>
@@ -774,7 +764,7 @@ Address: %4
         <translation>低输出</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="+537"/>
+        <location filename="../coincontroldialog.cpp" line="+493"/>
         <source>no</source>
         <translation>否</translation>
     </message>
@@ -839,7 +829,7 @@ Address: %4
         <translation>优先级</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="-500"/>
+        <location filename="../coincontroldialog.cpp" line="-456"/>
         <source>Copy address</source>
         <translation>复制地址</translation>
     </message>
@@ -881,11 +871,6 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Copy priority</source>
-        <translation>复制优先级</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Copy low output</source>
         <translation>复制低输出</translation>
     </message>
@@ -895,42 +880,7 @@ Address: %4
         <translation>复制零钱</translation>
     </message>
     <message>
-        <location line="+317"/>
-        <source>highest</source>
-        <translation>最高</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>high</source>
-        <translation>高</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>medium-high</source>
-        <translation>中高</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>medium</source>
-        <translation>中等</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>low-medium</source>
-        <translation>中低</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>low</source>
-        <translation>低</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>lowest</source>
-        <translation>最低</translation>
-    </message>
-    <message>
-        <location line="+140"/>
+        <location line="+423"/>
         <source>DUST</source>
         <translation>DUST</translation>
     </message>
@@ -940,7 +890,7 @@ Address: %4
         <translation>是</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+9"/>
         <source>This label turns red, if the transaction size is bigger than 10000 bytes.
 
  This means a fee of at least %1 per kb is required.
@@ -949,17 +899,6 @@ Address: %4
         <translation>交易数据量超过10000字节时，该标签变为红色。
 此时每kb数据量将会收取 %1 的手续费。
 可能有+/-1字节的误差。</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transactions with higher priority get more likely into a block.
-
-This label turns red, if the priority is smaller than &quot;medium&quot;.
-
- This means a fee of at least %1 per kb is required.</source>
-        <translation>优先度较高的交易有更高可能进入到区块中。
-当优先度为中级以下时，该标签变为红色。
-此时需要收取每kb %1 的手续费。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -981,8 +920,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 此时需收取 %2 的手续费。</translation>
     </message>
     <message>
-        <location line="+36"/>
-        <location line="+66"/>
+        <location line="+35"/>
+        <location line="+58"/>
         <source>(no label)</source>
         <translation>(没有标签)</translation>
     </message>
@@ -1052,7 +991,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Rubycoin address.</source>
-        <translation>“%1” 不是有效的黑币地址。</translation>
+        <translation>“%1” 不是有效的红宝石硬币地址。</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1071,7 +1010,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
         <source>Rubycoin-Qt</source>
-        <translation>黑币客户端Rubycoin-Qt</translation>
+        <translation>红宝石硬币客户端Rubycoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1123,7 +1062,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.0001 recommended.</source>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
         <translation>支付可选的交易手续费以加速交易(每kB)。大多数交易的数据量为1kB。推荐额0.01。</translation>
     </message>
     <message>
@@ -1144,12 +1083,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+31"/>
         <source>Automatically start Rubycoin after logging in to the system.</source>
-        <translation>开机自动启动黑币客户端</translation>
+        <translation>启动自动启动红宝石硬币客户端</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start Rubycoin on system login</source>
-        <translation>开机时自动启动黑币客户端(&amp;S)</translation>
+        <translation>开机时自动启动红宝石硬币客户端(&amp;S)</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1159,7 +1098,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+6"/>
         <source>Automatically open the Rubycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>路由器自动打开黑币客户端端口。该功能仅在路由器开启UPnP支持时有效。</translation>
+        <translation>路由器自动打开红宝石硬币客户端口。此功能仅在路由器启用UPnP支持时有效。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1234,17 +1173,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Rubycoin.</source>
-        <translation>在此设置用户界面语言。重启黑币客户端后设置生效。</translation>
+        <translation>在此设置用户界面语言。重启红宝石硬币客户端后设置生效。</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>黑币金额单位(&amp;U)：</translation>
+        <translation>红宝石硬币金额单位(&amp;U)：</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择黑币单位。</translation>
+        <translation>选择红宝石硬币单位。</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1254,17 +1193,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Display coin &amp;control features (experts only!)</source>
-        <translation>显示黑币控制选项(仅用于专家用户)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Whether to select the coin outputs randomly or with minimal coin age.</source>
-        <translation>使用最小币龄或者随机来选择黑币的输出</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Minimize weight consumption (experimental)</source>
-        <translation>最小化权重消耗(测试)</translation>
+        <translation>显示红宝石硬币控制选项(仅用于专家用户)</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1292,7 +1221,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>默认</translation>
     </message>
     <message>
-        <location line="+148"/>
+        <location line="+147"/>
         <location line="+9"/>
         <source>Warning</source>
         <translation>警告</translation>
@@ -1394,7 +1323,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start rubycoin: click-to-pay handler</source>
-        <translation>无法启动黑币: 点击支付处理器</translation>
+        <translation>无法启动红宝石硬币: 点击支付处理器</translation>
     </message>
 </context>
 <context>
@@ -1536,11 +1465,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+64"/>
+        <location filename="../rpcconsole.cpp" line="+352"/>
         <source>In:</source>
         <translation>入：</translation>
     </message>
     <message>
         <location line="+80"/>
+        <location filename="../rpcconsole.cpp" line="+1"/>
         <source>Out:</source>
         <translation>出：</translation>
     </message>
@@ -1582,12 +1513,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-104"/>
         <source>Rubycoin - Debug window</source>
-        <translation>黑币客户端-调试窗口</translation>
+        <translation>红宝石硬币客户端-调试窗口</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Rubycoin Core</source>
-        <translation>黑币核心进程</translation>
+        <translation>红宝石硬币核心进程</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1605,9 +1536,9 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>清空控制台</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="+325"/>
+        <location filename="../rpcconsole.cpp" line="-28"/>
         <source>Welcome to the Rubycoin RPC console.</source>
-        <translation>欢迎使用黑币RPC控制台。</translation>
+        <translation>欢迎使用红宝石硬币RPC控制台。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1620,7 +1551,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>使用 &lt;b&gt;help&lt;/b&gt; 命令显示帮助信息。</translation>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+134"/>
         <source>%1 B</source>
         <translation>%1 B</translation>
     </message>
@@ -1659,7 +1590,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+182"/>
+        <location filename="../sendcoinsdialog.cpp" line="+179"/>
         <location line="+5"/>
         <location line="+5"/>
         <location line="+5"/>
@@ -1711,17 +1642,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>金额：</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Priority:</source>
-        <translation>优先级：</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>medium</source>
-        <translation>中等</translation>
-    </message>
-    <message>
-        <location line="+32"/>
+        <location line="+54"/>
         <source>Fee:</source>
         <translation>费用：</translation>
     </message>
@@ -1786,9 +1707,9 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>发送(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-174"/>
+        <location filename="../sendcoinsdialog.cpp" line="-171"/>
         <source>Enter a Rubycoin address (e.g. RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</source>
-        <translation>输入黑币地址(例如：RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
+        <translation>输入红宝石硬币地址(例如：RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1817,11 +1738,6 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Copy priority</source>
-        <translation>复制优先级</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Copy low output</source>
         <translation>复制低输出</translation>
     </message>
@@ -1831,7 +1747,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>复制零钱</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+85"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; 至 %2 (%3)</translation>
     </message>
@@ -1886,9 +1802,9 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>错误：交易被拒绝。可能由于钱包中部分金额已被使用，例如您使用了钱包数据的副本，在副本中某些金额已被使用，但在此处尚未被标记为已使用。</translation>
     </message>
     <message>
-        <location line="+247"/>
+        <location line="+241"/>
         <source>WARNING: Invalid Rubycoin address</source>
-        <translation>警告：无效的黑币地址</translation>
+        <translation>警告：无效的红宝石硬币地址</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1962,7 +1878,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Rubycoin address (e.g. RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</source>
-        <translation>输入一个黑币地址 (例：RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
+        <translation>输入一个红宝石硬币地址 (例：RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
     </message>
 </context>
 <context>
@@ -2023,7 +1939,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Rubycoin address</source>
-        <translation>对该消息进行签名以证明您对该黑币地址的所有权</translation>
+        <translation>对该消息进行签名以证明您对该红宝石硬币地址的所有权</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2050,12 +1966,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</source>
-        <translation>用来签名该消息的黑币地址(例： RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
+        <translation>用来签名该消息的红宝石硬币地址(例： RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Rubycoin address</source>
-        <translation>确认该消息以保证它经由指定的黑币地址签名</translation>
+        <translation>确认该消息以保证它经由指定的红宝石硬币地址签名</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2066,7 +1982,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a Rubycoin address (e.g. RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</source>
-        <translation>输入黑币地址(例： RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
+        <translation>输入红宝石硬币地址(例： RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2076,7 +1992,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Enter Rubycoin signature</source>
-        <translation>输入黑币签名</translation>
+        <translation>输入红宝石硬币签名</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2645,7 +2561,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+208"/>
+        <location filename="../walletmodel.cpp" line="+212"/>
         <source>Sending...</source>
         <translation>正在发送</translation>
     </message>
@@ -2653,9 +2569,9 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+173"/>
+        <location filename="../bitcoinstrings.cpp" line="+8"/>
         <source>Rubycoin version</source>
-        <translation>黑币客户端 版本</translation>
+        <translation>红宝石硬币客户端 版本</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2665,7 +2581,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Send command to -server or rubycoind</source>
-        <translation>向-server服务器或rubycoind发送命令</translation>
+        <translation>向-server服务器或Rubycoind发送命令</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2680,7 +2596,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 </translation>
     </message>
     <message>
-        <location line="-147"/>
+        <location line="+1"/>
         <source>Options:</source>
         <translation>选项：
 </translation>
@@ -2693,7 +2609,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Specify pid file (default: rubycoind.pid)</source>
-        <translation>指定pid文件(默认: rubycoind.pid)</translation>
+        <translation>指定pid文件(默认: Rubycoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2707,7 +2623,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
 </translation>
     </message>
     <message>
-        <location line="-25"/>
+        <location line="+163"/>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
@@ -2732,7 +2648,7 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="-161"/>
         <source>Set database cache size in megabytes (default: 25)</source>
         <translation>设置数据库缓冲区大小 (缺省: 25MB)</translation>
     </message>
@@ -2777,7 +2693,7 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>总是通过DNS查询节点的地址（默认值：0）</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+4"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>断开出现问题节点阀值（缺省: 100）</translation>
     </message>
@@ -2787,12 +2703,12 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>Number of seconds to keep misbehaving peers from reconnecting (缺省: 86400)</translation>
     </message>
     <message>
-        <location line="-36"/>
+        <location line="+153"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>设置RPC监听端口%u时发生错误, IPv4:%s</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="-126"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 5938 or testnet: 55938)</source>
         <translation>监听 &lt;port&gt; 端口的JSON-RPC连接 (默认: 5938 测试网: 55938)</translation>
     </message>
@@ -2816,42 +2732,37 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-23"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>接受来自外部的连接 (缺省: 如果不带 -proxy or -connect 参数设置为1)</translation>
     </message>
     <message>
-        <location line="-28"/>
+        <location line="+160"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>在IPv6模式下设置RPC监听端口 %u 失败，返回到IPv4模式: %s</translation>
     </message>
     <message>
-        <location line="+94"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>设置高优先度/低手续费交易的最大字节数 (默认: 27000)</translation>
-    </message>
-    <message>
-        <location line="+15"/>
+        <location line="-84"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>警告：-paytxfee 交易费设置得太高了！每笔交易都将支付交易费。</translation>
     </message>
     <message>
-        <location line="-104"/>
+        <location line="+46"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Rubycoin will not work properly.</source>
-        <translation>警告：请确认您计算机的本地时间。如果时钟错误，黑币客户端将不能正常工作。</translation>
+        <translation>警告：请确认您计算机的本地时间。如果时钟错误，红宝石硬币客户端将不能正常工作。</translation>
     </message>
     <message>
-        <location line="+132"/>
+        <location line="-19"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>警告：钱包文件wallet.dat读取失败！最重要的公钥、私钥数据都没有问题，但是交易记录或地址簿数据不正确，或者存在数据丢失。</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-16"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>警告：钱包文件wallet.dat损坏! 原始的钱包文件已经备份到%s目录下并重命名为{timestamp}.bak 。如果您的账户余额或者交易记录不正确，请使用您的钱包备份文件恢复。</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-31"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>尝试从损坏的钱包文件wallet.dat中恢复私钥</translation>
     </message>
@@ -2861,7 +2772,7 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>数据块创建选项：</translation>
     </message>
     <message>
-        <location line="-68"/>
+        <location line="-66"/>
         <source>Connect only to the specified node(s)</source>
         <translation>仅连接到指定节点</translation>
     </message>
@@ -2871,17 +2782,12 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>发现自己的IP地址(缺省:不带 -externalip 参数监听时设置为1)</translation>
     </message>
     <message>
-        <location line="+102"/>
+        <location line="+97"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>监听端口失败。请使用 -listen=0 参数。</translation>
     </message>
     <message>
-        <location line="-92"/>
-        <source>Sync checkpoints policy (default: strict)</source>
-        <translation>同步检测点政策 (默认：严格)</translation>
-    </message>
-    <message>
-        <location line="+90"/>
+        <location line="-2"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
         <translation>无效的 -tor 地址: &apos;%s&apos;</translation>
     </message>
@@ -2891,7 +2797,7 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>-reservebalance=&lt;amount&gt; 金额无效</translation>
     </message>
     <message>
-        <location line="-89"/>
+        <location line="-85"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
         <translation>每个连接的最大接收缓存，&lt;n&gt;*1000 字节(缺省：5000)</translation>
     </message>
@@ -2901,27 +2807,27 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>每个连接的最大发送缓存，&lt;n&gt;*1000 字节(缺省：1000)</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-16"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
         <translation>仅连接至指定网络的节点&lt;net&gt;(IPv4, IPv6 或者 Tor)</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+30"/>
         <source>Prepend debug output with timestamp</source>
         <translation>将时间信息加入调试输出中</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+36"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL选项：(参见Bitcoin Wiki关于SSL设置栏目)</translation>
     </message>
     <message>
-        <location line="-38"/>
+        <location line="-34"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>跟踪/调试信息输出到控制台，不输出到 debug.log 文件</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
         <translation>设置最大区块大小 (默认：250000)</translation>
     </message>
@@ -2931,23 +2837,17 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>设置最小数据块大小(缺省:0)</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-33"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>客户端启动时压缩debug.log文件(缺省：no-debug模式时为1)</translation>
     </message>
     <message>
-        <location line="-42"/>
+        <location line="-41"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>设置连接超时时间(缺省：5000毫秒)</translation>
     </message>
     <message>
-        <location line="+116"/>
-        <source>Unable to sign checkpoint, wrong checkpointkey?
-</source>
-        <translation>无法为记录点签名，错误的记录点密钥。</translation>
-    </message>
-    <message>
-        <location line="-87"/>
+        <location line="+28"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>使用UPnP映射监听端口 (缺省: 0)</translation>
     </message>
@@ -2957,17 +2857,17 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>使用UPnp映射监听端口(缺省: 监听状态设为1)</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-25"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
         <translation>开启代理以使用隐藏服务 (默认: 和-proxy设置相同)</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+45"/>
         <source>Username for JSON-RPC connections</source>
         <translation>JSON-RPC 连接用户名</translation>
     </message>
     <message>
-        <location line="+54"/>
+        <location line="+50"/>
         <source>Verifying database integrity...</source>
         <translation>正在检查数据库完整性...</translation>
     </message>
@@ -2992,7 +2892,7 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>错误：交易被拒绝。可能由于钱包中部分金额已被使用，例如您使用了钱包数据的副本，在副本中某些金额已被使用，但在此处尚未被标记为已使用。</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-15"/>
         <source>Warning</source>
         <translation>警告</translation>
     </message>
@@ -3002,28 +2902,23 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>信息</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
-        <translation>警告：检测到同步记录点错误，已跳过。</translation>
-    </message>
-    <message>
-        <location line="-1"/>
+        <location line="-7"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>警告：该软件版本已过时，请升级！</translation>
     </message>
     <message>
-        <location line="-53"/>
+        <location line="-23"/>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>钱包文件wallet.dat损坏，抢救备份失败</translation>
     </message>
     <message>
-        <location line="-59"/>
+        <location line="-55"/>
         <source>Password for JSON-RPC connections</source>
         <translation>JSON-RPC 连接密码
 </translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="-47"/>
         <source>Connect through SOCKS5 proxy</source>
         <translation type="unfinished"/>
     </message>
@@ -3033,7 +2928,7 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>自动和其它节点同步时间。如果本地计算机世界是准确的，建议关闭。(默认: 1)</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+12"/>
         <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
         <translation>创建交易时自动忽略该值以下的数额 (默认：0.01)</translation>
     </message>
@@ -3093,7 +2988,7 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>要求对零钱进行确认 (默认：0)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
         <translation>收到相关提示时执行命令 (命令中的%s将被信息替换)</translation>
     </message>
@@ -3124,7 +3019,12 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>从外部 blk000?.dat 文件导入区块</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+1"/>
+        <source>Keep at most &lt;n&gt; MiB of unconnectable blocks in memory (default: %u)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>为 JSON-RPC 连接使用 OpenSSL (https) 连接</translation>
     </message>
@@ -3148,20 +3048,20 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
     <message>
         <location line="+8"/>
         <source>Initialization sanity check failed. Rubycoin is shutting down.</source>
-        <translation>初始化完整性检查失败。 黑币客户端即将关闭。</translation>
+        <translation>初始化完整性检查失败。 红宝石硬币客户端即将关闭。</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+20"/>
         <source>Error loading block database</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+29"/>
         <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
         <translation>错误：无法创建交易，已解锁的钱包仅用于权益累积。</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="-14"/>
         <source>Error: Disk space is low!</source>
         <translation>警告：磁盘空间低。</translation>
     </message>
@@ -3171,33 +3071,28 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>这是一个预发布测试版本 - 风险须自行承担 - 不适用于挖矿或商家应用</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation>警告：发现无效的记录点。所显示的交易信息未必正确！请升级客户端或联系开发者。</translation>
-    </message>
-    <message>
-        <location line="-174"/>
+        <location line="-135"/>
         <source>This help message</source>
         <translation>本帮助信息
 </translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+100"/>
         <source>Wallet %s resides outside data directory %s.</source>
         <translation>钱包 %s 位于数据目录 %s 之外.</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+46"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>无法绑定本机端口 %s  (返回错误消息 %d, %s)</translation>
     </message>
     <message>
-        <location line="-131"/>
+        <location line="-136"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>使用 -addnode, -seednode 和 -connect 选项时允许查询DNS</translation>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+121"/>
         <source>Loading addresses...</source>
         <translation>正在加载地址簿...</translation>
     </message>
@@ -3222,7 +3117,7 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>wallet.dat 钱包文件加载出错</translation>
     </message>
     <message>
-        <location line="-16"/>
+        <location line="-15"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>无效的代理地址：%s</translation>
     </message>
@@ -3262,39 +3157,29 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>金额不足</translation>
     </message>
     <message>
-        <location line="-40"/>
+        <location line="-41"/>
         <source>Loading block index...</source>
         <translation>正在加载数据块索引...</translation>
     </message>
     <message>
-        <location line="-111"/>
+        <location line="-105"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>添加节点并与其保持连接</translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+131"/>
         <source>Unable to bind to %s on this computer. Rubycoin is probably already running.</source>
-        <translation>无法绑定到该计算机上的 %s. 黑币客户端可能已在运行中。</translation>
+        <translation>无法绑定到该计算机上的 %s. 红宝石硬币客户端可能已在运行中。</translation>
     </message>
     <message>
-        <location line="-102"/>
+        <location line="-108"/>
         <source>Fee per KB to add to transactions you send</source>
         <translation>每kB交易所支付的手续费</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <source>Minimize weight consumption (experimental) (default: 0)</source>
-        <translation>最小化权重消耗(测试)(默认: 0)</translation>
-    </message>
-    <message>
-        <location line="+8"/>
+        <location line="+40"/>
         <source>How many blocks to check at startup (default: 500, 0 = all)</source>
         <translation>启动时检测的区块数量 (默认: 2500, 0表示检测全部)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
-        <translation>在内存中保留至少 &lt;n&gt; 无法连接的区块 (默认: %u)</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -3314,7 +3199,7 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
     <message>
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Rubycoin is probably already running.</source>
-        <translation>无法从数据目录 %s 获得锁定.  黑币客户端可能已在运行中.</translation>
+        <translation>无法从数据目录 %s 获得锁定.  红宝石硬币客户端可能已在运行中.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -3322,7 +3207,7 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>初始化钱包数据库环境%s时出现错误！</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+15"/>
         <source>Loading wallet...</source>
         <translation>正在加载钱包...</translation>
     </message>
@@ -3347,17 +3232,17 @@ alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo.com
         <translation>加载完成</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="+33"/>
         <source>To use the %s option</source>
         <translation>使用 %s 选项</translation>
     </message>
     <message>
-        <location line="+188"/>
+        <location line="-27"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location line="-18"/>
+        <location line="+22"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>

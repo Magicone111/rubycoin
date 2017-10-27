@@ -9,11 +9,11 @@
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Rubycoin&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Rubycoin&lt;/b&gt;-asiakasohjelman versio</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2014-2016 Rubycoin Developers</source>
+        <source>Copyright © 2014-2018 Rubycoin Developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -24,13 +24,7 @@ This is experimental software.
 Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (https://www.openssl.org/), cryptographic software written by Eric Young (eay@cryptsoft.com), and UPnP software written by Thomas Bernard.</source>
-        <translation>
-Tämä on kokeilukäyttöön suunnattua ohjelmistoa.
-
-Levitetään MIT/X11 ohjelmistolisenssin alaisuudessa. Tarkemmat tiedot löytyvät tiedostosta COPYING tai osoitteesta http://www.opensource.org/licenses/mit-license.php.
-
-Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-työkalupakettia varten (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;), Eric Youngin 
-(&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) kehittämän salausohjelmiston sekä Thomas Bernardin UPnP-ohjelmiston.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -106,17 +100,17 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
         <translation>&amp;Poista</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+65"/>
+        <location filename="../addressbookpage.cpp" line="+66"/>
         <source>Copy &amp;Label</source>
         <translation>Kopioi &amp;nimike</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;Edit</source>
         <translation>&amp;Muokkaa</translation>
     </message>
     <message>
-        <location line="+250"/>
+        <location line="+248"/>
         <source>Export Address Book Data</source>
         <translation>Vie osoitekirja</translation>
     </message>
@@ -229,7 +223,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja hukkaat salasanasi, &lt;b&gt;MENETÄT KAIKKI RUBYCOINISI&lt;/b&gt;!</translation>
+        <translation>Varoitus: Jos salaat lompakkosi ja hukkaat salasanasi, &lt;b&gt;MENETÄT KAIKKI RubycoinISI&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -731,7 +725,7 @@ Osoite: %4</translation>
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+110"/>
+        <location filename="../clientmodel.cpp" line="+119"/>
         <source>Network Alert</source>
         <translation>Ei verkkoyhteyttä</translation>
     </message>
@@ -759,11 +753,6 @@ Osoite: %4</translation>
         <translation>Määrä:</translation>
     </message>
     <message>
-        <location line="+32"/>
-        <source>Priority:</source>
-        <translation>Prioriteetti:</translation>
-    </message>
-    <message>
         <location line="+48"/>
         <source>Fee:</source>
         <translation>Kulu:</translation>
@@ -774,7 +763,7 @@ Osoite: %4</translation>
         <translation>Heikko ulosanti:</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="+537"/>
+        <location filename="../coincontroldialog.cpp" line="+493"/>
         <source>no</source>
         <translation>ei</translation>
     </message>
@@ -839,7 +828,7 @@ Osoite: %4</translation>
         <translation>Tärkeysjärjestys</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="-500"/>
+        <location filename="../coincontroldialog.cpp" line="-456"/>
         <source>Copy address</source>
         <translation>Kopioi osoite</translation>
     </message>
@@ -881,11 +870,6 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copy priority</source>
-        <translation>Kopioi prioriteetti</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Copy low output</source>
         <translation>Kopioi heikko ulosanti</translation>
     </message>
@@ -895,42 +879,7 @@ Osoite: %4</translation>
         <translation>Kopioi vaihtoraha</translation>
     </message>
     <message>
-        <location line="+317"/>
-        <source>highest</source>
-        <translation>korkein</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>high</source>
-        <translation>korkea</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>medium-high</source>
-        <translation>keskikorkea</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>medium</source>
-        <translation>keski</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>low-medium</source>
-        <translation>keskimatala</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>low</source>
-        <translation>matala</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>lowest</source>
-        <translation>matalin</translation>
-    </message>
-    <message>
-        <location line="+140"/>
+        <location line="+423"/>
         <source>DUST</source>
         <translation>PÖLYÄ</translation>
     </message>
@@ -940,7 +889,7 @@ Osoite: %4</translation>
         <translation>kyllä</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+9"/>
         <source>This label turns red, if the transaction size is bigger than 10000 bytes.
 
  This means a fee of at least %1 per kb is required.
@@ -951,19 +900,6 @@ Osoite: %4</translation>
 Tämä tarkoittaa, että ainakin %1 rahansiirtopalkkio per kilotavu tarvitaan.
 
 Voi vaihdella välillä +/- 1 Tavu per syöte.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transactions with higher priority get more likely into a block.
-
-This label turns red, if the priority is smaller than &quot;medium&quot;.
-
- This means a fee of at least %1 per kb is required.</source>
-        <translation>Suuremman prioriteetin rahansiirrot pääsevät suuremmalla todennäköisyydellä lohkoketjuun.
-
-Tämä nimike muuttuu punaiseksi, jos prioriteetti on pienempi kuin &quot;keskikokoinen&quot;.
-
-Tämä tarkoittaa, että ainakin %1 rahansiirtopalkkio per kilotavu tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -988,8 +924,8 @@ Määrät alle 0.546 kertaa pienimmän rahansiirtokulun verran näytetään pöl
 Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
-        <location line="+36"/>
-        <location line="+66"/>
+        <location line="+35"/>
+        <location line="+58"/>
         <source>(no label)</source>
         <translation>(ei nimeä)</translation>
     </message>
@@ -1130,7 +1066,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.0001 recommended.</source>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
         <translation>Vapaavalintainen rahansiirtopalkkio kilotavua kohden auttaa varmistamaan että rahansiirtosi käsitellään nopeasti. Suurin osa rahansiirroista on alle yhden kilotavun. Palkkiota 0.01 suositellaan.</translation>
     </message>
     <message>
@@ -1196,12 +1132,12 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-57"/>
         <source>Connect to the Rubycoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
-        <translation type="unfinished"/>
+        <translation>Yhdistä Rubycoin-verkkoon SOCKS5-välityspalvelimen kautta (esim. kun yhdistetään Tor:lla).</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Connect through SOCKS5 proxy:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Yhdistä SOCKS5-välityspalvelimen kautta:</translation>
     </message>
     <message>
         <location line="+90"/>
@@ -1265,16 +1201,6 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Whether to select the coin outputs randomly or with minimal coin age.</source>
-        <translation>Valitaanko kolikot sattumanvaraisesti vai pienimmän kolikon iän mukaan.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Minimize weight consumption (experimental)</source>
-        <translation>Minimoi painoarvon menekki (kokeellinen)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>Use red visual theme (requires restart)</source>
         <translation>Käytä teemana mustaa ulkoasua (vaatii uudelleenkäynnistyksen)</translation>
     </message>
@@ -1299,7 +1225,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation>oletus</translation>
     </message>
     <message>
-        <location line="+148"/>
+        <location line="+147"/>
         <location line="+9"/>
         <source>Warning</source>
         <translation>Varoitus</translation>
@@ -1543,11 +1469,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+64"/>
+        <location filename="../rpcconsole.cpp" line="+352"/>
         <source>In:</source>
         <translation>Sisään:</translation>
     </message>
     <message>
         <location line="+80"/>
+        <location filename="../rpcconsole.cpp" line="+1"/>
         <source>Out:</source>
         <translation>Ulos:</translation>
     </message>
@@ -1612,7 +1540,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation>Tyhjennä konsoli</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="+325"/>
+        <location filename="../rpcconsole.cpp" line="-28"/>
         <source>Welcome to the Rubycoin RPC console.</source>
         <translation>Tervetuloa Rubycoinin RPC-konsoliin.</translation>
     </message>
@@ -1627,7 +1555,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation>Kirjoita &lt;b&gt;help&lt;/b&gt; nähdäksesi yleiskatsauksen käytettävissä olevista komennoista.</translation>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+134"/>
         <source>%1 B</source>
         <translation>%1 t</translation>
     </message>
@@ -1666,7 +1594,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+182"/>
+        <location filename="../sendcoinsdialog.cpp" line="+179"/>
         <location line="+5"/>
         <location line="+5"/>
         <location line="+5"/>
@@ -1718,17 +1646,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation>Määrä:</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Priority:</source>
-        <translation>Prioriteetti:</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>medium</source>
-        <translation>keskikokoinen</translation>
-    </message>
-    <message>
-        <location line="+32"/>
+        <location line="+54"/>
         <source>Fee:</source>
         <translation>Kulu:</translation>
     </message>
@@ -1793,7 +1711,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation>L&amp;ähetä</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-174"/>
+        <location filename="../sendcoinsdialog.cpp" line="-171"/>
         <source>Enter a Rubycoin address (e.g. RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</source>
         <translation>Syötä Rubycoin-osoite (esim. RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
     </message>
@@ -1824,11 +1742,6 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copy priority</source>
-        <translation>Kopioi prioriteetti</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Copy low output</source>
         <translation>Kopioi heikko ulosanti</translation>
     </message>
@@ -1838,7 +1751,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation>Kopioi vaihtoraha</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+85"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt;:sta %2 (%3)</translation>
     </message>
@@ -1893,7 +1806,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation>Virhe: Rahansiirto evätty. Tämä voi tapahtua kun jotkut kolikot lompakossasi ovat jo käytetty, kuten myös tilanteessa jos käytit wallet.dat-tiedoston kopiota ja rahat olivat käytetty kopiossa, mutta eivät ole merkitty käytetyiksi tässä.</translation>
     </message>
     <message>
-        <location line="+247"/>
+        <location line="+241"/>
         <source>WARNING: Invalid Rubycoin address</source>
         <translation>VAROITUS: Epäkelpo Rubycoin-osoite</translation>
     </message>
@@ -2652,7 +2565,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+208"/>
+        <location filename="../walletmodel.cpp" line="+212"/>
         <source>Sending...</source>
         <translation>Lähetetään...</translation>
     </message>
@@ -2660,7 +2573,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+173"/>
+        <location filename="../bitcoinstrings.cpp" line="+8"/>
         <source>Rubycoin version</source>
         <translation>Rubycoinin versio</translation>
     </message>
@@ -2672,7 +2585,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+1"/>
         <source>Send command to -server or rubycoind</source>
-        <translation>Syötä komento kohteeseen -server tai rubycoind</translation>
+        <translation>Syötä komento kohteeseen -server tai Rubycoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2685,7 +2598,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation>Hanki apua käskylle</translation>
     </message>
     <message>
-        <location line="-147"/>
+        <location line="+1"/>
         <source>Options:</source>
         <translation>Asetukset:</translation>
     </message>
@@ -2710,7 +2623,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <translation>Määritä datahakemisto</translation>
     </message>
     <message>
-        <location line="-25"/>
+        <location line="+163"/>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
@@ -2732,7 +2645,7 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
 </translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="-161"/>
         <source>Set database cache size in megabytes (default: 25)</source>
         <translation>Aseta tietokannan välimuistin koko megatavuina (oletus: 25)</translation>
     </message>
@@ -2777,7 +2690,7 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Pyydä aina vertaistesi osoitteita DNS-kyselyn avulla (oletus: 0)</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+4"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Kynnysarvo irtautumiselle epäilyttävistä vertaisista (oletus: 100)</translation>
     </message>
@@ -2787,12 +2700,12 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Sekunteina aika, kuinka kauan estetään epäilyttävien vertaisten uudelleenyhdistysyritykset (oletus: 86400)</translation>
     </message>
     <message>
-        <location line="-36"/>
+        <location line="+153"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>Virhe avattaessa RPC-porttia %u kuunneltavaksi IPv4-osoitteessa: %s</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="-126"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 5938 or testnet: 55938)</source>
         <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 5938 tai testiverkko: 55938)</translation>
     </message>
@@ -2812,42 +2725,37 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Käytä testiverkkoa</translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-23"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Hyväksy yhteydet ulkomaailmasta (vakioasetus: 1 jos -proxy tai -connect ei ole määritetty)</translation>
     </message>
     <message>
-        <location line="-28"/>
+        <location line="+160"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Virhe kohdattu määritettäessä RPC-porttia %u IPv6-osoitteelle, palataan takaisin IPv4:n käyttöön: %s</translation>
     </message>
     <message>
-        <location line="+94"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Aseta suurin mahdollinen koko korkean prioriteetin/pienen siirtokulun rahansiirroille tavuina (oletus: 27000)</translation>
-    </message>
-    <message>
-        <location line="+15"/>
+        <location line="-84"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Varoitus: -paytxfee on asetettu erittäin korkeaksi! Tämä on maksukulu jonka tulet maksamaan kun lähetät siirron.</translation>
     </message>
     <message>
-        <location line="-104"/>
+        <location line="+46"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Rubycoin will not work properly.</source>
         <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, Rubycoin ei toimi oikein.</translation>
     </message>
     <message>
-        <location line="+132"/>
+        <location line="-19"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Varoitus: Virhe luettaessa wallet.dat-tiedostoa! Kaikki avaimet luettiin oikein, mutta rahansiirtodata tai osoitekirjan kentät voivat olla puuttuvat tai väärät.</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-16"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>Varoitus: wallet.dat-tiedosto on korruptoitunut, data pelastettu! Alkuperäinen wallet.dat on tallennettu nimellä wallet.{aikaleima}.bak kohteeseen %s; Jos saldosi tai rahansiirrot ovat väärät, sinun tulee palauttaa lompakko varmuuskopiosta.</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-31"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Yritetään palauttaa yksityisiä salausavaimia korruptoituneesta wallet.dat-tiedostosta</translation>
     </message>
@@ -2857,7 +2765,7 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Lohkon luonnin asetukset:</translation>
     </message>
     <message>
-        <location line="-68"/>
+        <location line="-66"/>
         <source>Connect only to the specified node(s)</source>
         <translation>Yhdistä vain määritettyihin solmukohtiin</translation>
     </message>
@@ -2867,17 +2775,12 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Paljasta oma IP-osoite (vakioasetus: 1 kun kuuntelemassa ja ei -externalip)</translation>
     </message>
     <message>
-        <location line="+102"/>
+        <location line="+97"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Kuuntelu ei onnistunut missään portissa. Käytä -listen=0 jos haluat tätä.</translation>
     </message>
     <message>
-        <location line="-92"/>
-        <source>Sync checkpoints policy (default: strict)</source>
-        <translation>Synkronoi tallennuspisteiden käytännöt (oletus: strict)</translation>
-    </message>
-    <message>
-        <location line="+90"/>
+        <location line="-2"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
         <translation>Epäkelpo -tor-osoite: &apos;%s&apos;</translation>
     </message>
@@ -2887,7 +2790,7 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Epäkelpo määrä -reservebalance=&lt;amount&gt;</translation>
     </message>
     <message>
-        <location line="-89"/>
+        <location line="-85"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
         <translation>Suurin vastaanottopuskuri yksittäiselle yhteydelle, &lt;n&gt;*1000 tavua (vakioasetus: 5000)</translation>
     </message>
@@ -2897,27 +2800,27 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Suurin lähetyspuskuri yksittäiselle yhteydelle, &lt;n&gt;*1000 tavua (vakioasetus: 1000)</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-16"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
         <translation>Yhdistä vain solmukohtiin verkossa &lt;net&gt; (IPv4, IPv6 tai Tor)</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+30"/>
         <source>Prepend debug output with timestamp</source>
         <translation>Lisää debug-tulosteiden alkuun aikaleimat</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+36"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>SSL asetukset (katso Bitcoin Wikistä tarkemmat SSL ohjeet)</translation>
     </message>
     <message>
-        <location line="-38"/>
+        <location line="-34"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Lähetä jäljitys/debug-tieto konsoliin, debug.log-tiedoston sijaan</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
         <translation>Aseta lohkon maksimikoko tavuissa (oletus: 250000)</translation>
     </message>
@@ -2927,24 +2830,17 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Asetan pienin lohkon koko tavuissa (vakioasetus: 0)</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-33"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Pienennä debug.log tiedosto käynnistyksen yhteydessä (vakioasetus: 1 kun ei -debug)</translation>
     </message>
     <message>
-        <location line="-42"/>
+        <location line="-41"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>Määritä yhteyden aikakataisu millisekunneissa (vakioasetus: 5000)</translation>
     </message>
     <message>
-        <location line="+116"/>
-        <source>Unable to sign checkpoint, wrong checkpointkey?
-</source>
-        <translation>Ei voitu kirjata tallennuspistettä, väärä checkpointkey?
-</translation>
-    </message>
-    <message>
-        <location line="-87"/>
+        <location line="+28"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Käytä UPnP:tä kuunneltavan portin avaamiseen (vakioasetus: 0)</translation>
     </message>
@@ -2954,17 +2850,17 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Käytä UPnP:tä kuunneltavan portin avaamiseen (vakioasetus: 1 kun kuuntelemassa)</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-25"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
         <translation>Käytä välityspalvelinta saavuttaaksesi tor:n piilotetut palvelut (oletus: sama kuin -proxy)</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+45"/>
         <source>Username for JSON-RPC connections</source>
         <translation>Käyttäjätunnus JSON-RPC-yhteyksille</translation>
     </message>
     <message>
-        <location line="+54"/>
+        <location line="+50"/>
         <source>Verifying database integrity...</source>
         <translation>Tarkistetaan tietokannan eheyttä...</translation>
     </message>
@@ -2989,7 +2885,7 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Virhe: Rahansiirto evätty. Tämä voi tapahtua kun jotkut kolikot lompakossasi ovat jo käytetty, kuten myös tilanteessa jos käytit wallet.dat-tiedoston kopiota ja rahat olivat käytetty kopiossa, mutta eivät ole merkitty käytetyiksi tässä.</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-15"/>
         <source>Warning</source>
         <translation>Varoitu</translation>
     </message>
@@ -2999,29 +2895,24 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Tietoa</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
-        <translation>VAROITUS: synkronoidun tallennuspisteen rikkomista havaittu, mutta ohitettu!</translation>
-    </message>
-    <message>
-        <location line="-1"/>
+        <location line="-7"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Varoitus: Tämä versio on vanhentunut, päivitys tarpeen!</translation>
     </message>
     <message>
-        <location line="-53"/>
+        <location line="-23"/>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat on korruptoitunut, pelastusyritys epäonnistui</translation>
     </message>
     <message>
-        <location line="-59"/>
+        <location line="-55"/>
         <source>Password for JSON-RPC connections</source>
         <translation>Salasana JSON-RPC-yhteyksille</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="-47"/>
         <source>Connect through SOCKS5 proxy</source>
-        <translation type="unfinished"/>
+        <translation>Yhdistä SOCKS5-välityspalvelimen kautta</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -3029,7 +2920,7 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Synkronoi kellonaika muiden solmukohtien kanssa. Poista käytöstä, jos järjestelmäsi aika on tarkka esim. päivittää itsensä NTP-palvelimelta. (oletus: 1)</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+12"/>
         <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
         <translation>Rahansiirtoja luodessa jätä huomioimatta syötteet joiden arvo on vähemmän kuin tämä (oletus: 0.01)</translation>
     </message>
@@ -3089,7 +2980,7 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Vaadi vaihtorahalle vahvistus (oletus: 0)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
         <translation>Suorita komento kun olennainen varoitus on saatu (%s komennossa korvattu viestillä)</translation>
     </message>
@@ -3119,7 +3010,12 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Tuo lohkoja erillisestä blk000?.dat-tiedostosta</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+1"/>
+        <source>Keep at most &lt;n&gt; MiB of unconnectable blocks in memory (default: %u)</source>
+        <translation>Pidä enintään &lt;n&gt; MiB yhdistämiskelvottomia lohkoja muistissa (oletus: %u)</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>Käytä OpenSSL-protokollaa (https) JSON-RPC-yhteyksille</translation>
     </message>
@@ -3136,7 +3032,7 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     <message>
         <location line="+5"/>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation type="unfinished"/>
+        <translation>Virhe: Ei tuettu socks-peruste löytyi. SOCKS:n version asettaminen ei ole enää mahdollista, vain SOCKS5-välityspalvelimet ovat tuettuja.</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3144,17 +3040,17 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Käyttöönottotarkistus epäonnistui. Rubycoin-asiakasohjelma suljetaan.</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+20"/>
         <source>Error loading block database</source>
-        <translation type="unfinished"/>
+        <translation>Virhe ladattessa lohkotietokantaa</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+29"/>
         <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
         <translation>Virhe: Lompakko avattu vain osakkuutta varten, rahansiirtoja ei voida luoda.</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="-14"/>
         <source>Error: Disk space is low!</source>
         <translation>Virhe: Levytila on vähissä!</translation>
     </message>
@@ -3164,32 +3060,27 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Tämä on esijulkaistu testikäännös - käytä omalla vastuulla - älä käytä louhintaan tai kaupankäyntisovellutuksiin</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation>VAROITUS: Epäkelpo tarkistuspiste löydetty! Ilmoitetut varojensiirrot eivät välttämättä pidä paikkaansa! Sinun täytyy päivittää asiakasohjelma tai ilmoittaa kehittäjille ongelmasta.</translation>
-    </message>
-    <message>
-        <location line="-174"/>
+        <location line="-135"/>
         <source>This help message</source>
         <translation>Tämä ohjeviesti</translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+100"/>
         <source>Wallet %s resides outside data directory %s.</source>
         <translation>Lompakko %s on datahakemiston %s ulkopuolella.</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+46"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>Kytkeytyminen %s tällä tietokonella ei onnistu (kytkeytyminen tulosti virheen %d, %s)</translation>
     </message>
     <message>
-        <location line="-131"/>
+        <location line="-136"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Salli DNS kyselyt -addnode, -seednode ja -connect yhteydessä</translation>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+121"/>
         <source>Loading addresses...</source>
         <translation>Ladataan osoitteita...</translation>
     </message>
@@ -3214,7 +3105,7 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Virhe ladattaessa wallet.dat-tiedostoa</translation>
     </message>
     <message>
-        <location line="-16"/>
+        <location line="-15"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Epäkelpo välityspalvelimen osoite: &apos;%s&apos;</translation>
     </message>
@@ -3254,39 +3145,29 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Ei tarpeeksi varoja</translation>
     </message>
     <message>
-        <location line="-40"/>
+        <location line="-41"/>
         <source>Loading block index...</source>
         <translation>Ladataan lohkoindeksiä...</translation>
     </message>
     <message>
-        <location line="-111"/>
+        <location line="-105"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Linää solmu mihin liittyä pitääksesi yhteyden auki</translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+131"/>
         <source>Unable to bind to %s on this computer. Rubycoin is probably already running.</source>
         <translation>Ei voitu liittää %s tällä tietokoneella. Rubycoin-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
-        <location line="-102"/>
+        <location line="-108"/>
         <source>Fee per KB to add to transactions you send</source>
         <translation>Rahansiirtopalkkio kilotavua kohden lähetettäviin rahansiirtoihisi</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <source>Minimize weight consumption (experimental) (default: 0)</source>
-        <translation>Minimoi painoarvon menekki (kokeellinen) (oletus: 0)</translation>
-    </message>
-    <message>
-        <location line="+8"/>
+        <location line="+40"/>
         <source>How many blocks to check at startup (default: 500, 0 = all)</source>
         <translation>Kuinka monta lohkoa tarkistetaan käynnistyksen yhteydessä (oletus: 500, 0 = kaikki)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
-        <translation>Pidä enintään &lt;n&gt; saantikelvotonta lohkoa muistissa (oletus: %u)</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -3314,7 +3195,7 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Virhe alustettaessa lompakon tietokantaympäristöä %s!</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+15"/>
         <source>Loading wallet...</source>
         <translation>Ladataan lompakkoa...</translation>
     </message>
@@ -3339,17 +3220,17 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
         <translation>Ladattu</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="+33"/>
         <source>To use the %s option</source>
         <translation>Käyttääksesi %s vaihtoehtoa</translation>
     </message>
     <message>
-        <location line="+188"/>
+        <location line="-27"/>
         <source>Error</source>
         <translation>Virhe</translation>
     </message>
     <message>
-        <location line="-18"/>
+        <location line="+22"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>

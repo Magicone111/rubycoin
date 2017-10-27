@@ -9,11 +9,11 @@
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Rubycoin&lt;/b&gt;</source>
-        <translation>Verze &lt;b&gt;Rubycoinu&lt;/b&gt; </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+41"/>
-        <source>Copyright © 2014-2016 Rubycoin Developers</source>
+        <source>Copyright © 2014-2018 Rubycoin Developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -100,17 +100,17 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>&amp;Smaž</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+65"/>
+        <location filename="../addressbookpage.cpp" line="+66"/>
         <source>Copy &amp;Label</source>
         <translation>Kopíruj &amp;označení</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>&amp;Edit</source>
         <translation>&amp;Uprav</translation>
     </message>
     <message>
-        <location line="+250"/>
+        <location line="+248"/>
         <source>Export Address Book Data</source>
         <translation>Exportovat Data z Knihy Adres</translation>
     </message>
@@ -726,7 +726,7 @@ Adresa: %4
 <context>
     <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+110"/>
+        <location filename="../clientmodel.cpp" line="+119"/>
         <source>Network Alert</source>
         <translation>Upozornění sítě</translation>
     </message>
@@ -754,11 +754,6 @@ Adresa: %4
         <translation>Částka:</translation>
     </message>
     <message>
-        <location line="+32"/>
-        <source>Priority:</source>
-        <translation>Priorita:</translation>
-    </message>
-    <message>
         <location line="+48"/>
         <source>Fee:</source>
         <translation>Poplatek:</translation>
@@ -769,7 +764,7 @@ Adresa: %4
         <translation>Nízký Výstup:</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="+537"/>
+        <location filename="../coincontroldialog.cpp" line="+493"/>
         <source>no</source>
         <translation>ne</translation>
     </message>
@@ -834,7 +829,7 @@ Adresa: %4
         <translation>Priorita</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="-500"/>
+        <location filename="../coincontroldialog.cpp" line="-456"/>
         <source>Copy address</source>
         <translation>Zkopíruj adresu</translation>
     </message>
@@ -876,11 +871,6 @@ Adresa: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Copy priority</source>
-        <translation>Zkopíruj prioritu</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Copy low output</source>
         <translation>Zkopíruj nízký výstup</translation>
     </message>
@@ -890,42 +880,7 @@ Adresa: %4
         <translation>Zkopíruj změnu</translation>
     </message>
     <message>
-        <location line="+317"/>
-        <source>highest</source>
-        <translation>nejvyšší</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>high</source>
-        <translation>vysoká</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>medium-high</source>
-        <translation>středně vysoká</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>medium</source>
-        <translation>střední</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>low-medium</source>
-        <translation>středně nízká</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>low</source>
-        <translation>nízká</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>lowest</source>
-        <translation>nejnižší</translation>
-    </message>
-    <message>
-        <location line="+140"/>
+        <location line="+423"/>
         <source>DUST</source>
         <translation>PRACH</translation>
     </message>
@@ -935,7 +890,7 @@ Adresa: %4
         <translation>ano</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+9"/>
         <source>This label turns red, if the transaction size is bigger than 10000 bytes.
 
  This means a fee of at least %1 per kb is required.
@@ -946,19 +901,6 @@ Adresa: %4
  To znamená, že je potřebný poplatek ve výši alespoň %1 za kb.
 
  Může se lišit +/- 1 Bajt na vstup.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transactions with higher priority get more likely into a block.
-
-This label turns red, if the priority is smaller than &quot;medium&quot;.
-
- This means a fee of at least %1 per kb is required.</source>
-        <translation>Transakce s vyšší prioritou se dostanou do bloku s větší pravděpodobností.
-
-Tento popis zčervená, když je priorita nižší než &quot;střední&quot;.
-
- To znamená, že je potřebný poplatek ve výši alespoň %1 za kb.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -983,8 +925,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.
 To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
-        <location line="+36"/>
-        <location line="+66"/>
+        <location line="+35"/>
+        <location line="+58"/>
         <source>(no label)</source>
         <translation>(bez označení)</translation>
     </message>
@@ -1125,7 +1067,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.0001 recommended.</source>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
         <translation>Volitelný poplatek transakce za kB, který zajistí, že tvé transakce jsou rychle zpracovány. Většina transakcí má 1 kB. Poplatek 0.01 je doporučený.</translation>
     </message>
     <message>
@@ -1260,16 +1202,6 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Whether to select the coin outputs randomly or with minimal coin age.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Minimize weight consumption (experimental)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>Use red visual theme (requires restart)</source>
         <translation type="unfinished"/>
     </message>
@@ -1294,7 +1226,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <translation>výchozí</translation>
     </message>
     <message>
-        <location line="+148"/>
+        <location line="+147"/>
         <location line="+9"/>
         <source>Warning</source>
         <translation>Upozornění</translation>
@@ -1538,11 +1470,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+64"/>
+        <location filename="../rpcconsole.cpp" line="+352"/>
         <source>In:</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+80"/>
+        <location filename="../rpcconsole.cpp" line="+1"/>
         <source>Out:</source>
         <translation type="unfinished"/>
     </message>
@@ -1607,7 +1541,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <translation>Vyčistit konzoli</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="+325"/>
+        <location filename="../rpcconsole.cpp" line="-28"/>
         <source>Welcome to the Rubycoin RPC console.</source>
         <translation>Vítej v Rubycoin RPC konzoli.</translation>
     </message>
@@ -1622,7 +1556,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <translation>Napsáním &lt;b&gt;help&lt;/b&gt; si vypíšeš přehled dostupných příkazů.</translation>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+134"/>
         <source>%1 B</source>
         <translation type="unfinished"/>
     </message>
@@ -1661,7 +1595,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <name>SendCoinsDialog</name>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+182"/>
+        <location filename="../sendcoinsdialog.cpp" line="+179"/>
         <location line="+5"/>
         <location line="+5"/>
         <location line="+5"/>
@@ -1713,17 +1647,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <translation>Částka:</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Priority:</source>
-        <translation>Priorita:</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>medium</source>
-        <translation>střední</translation>
-    </message>
-    <message>
-        <location line="+32"/>
+        <location line="+54"/>
         <source>Fee:</source>
         <translation>Poplatek:</translation>
     </message>
@@ -1788,7 +1712,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <translation>P&amp;ošli</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-174"/>
+        <location filename="../sendcoinsdialog.cpp" line="-171"/>
         <source>Enter a Rubycoin address (e.g. RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</source>
         <translation>Napiš Rubycoin adresu (např. RDnVX8VK5b7egm1FFuCHHe3H7U4VL3zxK6)</translation>
     </message>
@@ -1819,11 +1743,6 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copy priority</source>
-        <translation>Zkopíruj prioritu</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Copy low output</source>
         <translation>Zkopíruj nízký výstup</translation>
     </message>
@@ -1833,7 +1752,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <translation>Zkopíruj změnu</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+85"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; na %2 (%3)</translation>
     </message>
@@ -1888,7 +1807,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <translation>Chyba: Transakce byla odmítnuta. To může nastat, když některé mince ve tvé peněžence již byly utraceny, například tím, že jsi použil kopii wallet.dat a mince byly utraceny v této kopii, ale nebyly označeny jako utracené zde.</translation>
     </message>
     <message>
-        <location line="+247"/>
+        <location line="+241"/>
         <source>WARNING: Invalid Rubycoin address</source>
         <translation>UPOZORNĚNÍ: Neplatná Rubycoin adresa</translation>
     </message>
@@ -2647,7 +2566,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+208"/>
+        <location filename="../walletmodel.cpp" line="+212"/>
         <source>Sending...</source>
         <translation>Odesílám...</translation>
     </message>
@@ -2655,7 +2574,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+173"/>
+        <location filename="../bitcoinstrings.cpp" line="+8"/>
         <source>Rubycoin version</source>
         <translation>Verze Rubycoinu</translation>
     </message>
@@ -2667,7 +2586,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="+1"/>
         <source>Send command to -server or rubycoind</source>
-        <translation>Pošli příkaz na -server nebo rubycoind</translation>
+        <translation>Pošli příkaz na -server nebo Rubycoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2680,7 +2599,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <translation>Získat nápovědu pro příkaz</translation>
     </message>
     <message>
-        <location line="-147"/>
+        <location line="+1"/>
         <source>Options:</source>
         <translation>Možnosti:</translation>
     </message>
@@ -2692,7 +2611,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="+1"/>
         <source>Specify pid file (default: rubycoind.pid)</source>
-        <translation>Urči pid soubor (výchozí: rubycoind.pid)</translation>
+        <translation>Urči pid soubor (výchozí: Rubycoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2705,7 +2624,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <translation>Adresář pro data</translation>
     </message>
     <message>
-        <location line="-25"/>
+        <location line="+163"/>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
@@ -2720,7 +2639,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="-161"/>
         <source>Set database cache size in megabytes (default: 25)</source>
         <translation>Nastavit velikost databázové vyrovnávací paměti v megabajtech (výchozí: 25)</translation>
     </message>
@@ -2765,7 +2684,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+4"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
         <translation>Práh pro odpojování zlobivých uzlů (výchozí: 100)</translation>
     </message>
@@ -2775,12 +2694,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>Doba ve vteřinách, po kterou se nebudou moci zlobivé uzly znovu připojit (výchozí: 86400)</translation>
     </message>
     <message>
-        <location line="-36"/>
+        <location line="+153"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
         <translation>Při nastavování naslouchacího RPC portu %i pro IPv4 nastala chyba: %s</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="-126"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 5938 or testnet: 55938)</source>
         <translation>Naslouchej JSON-RPC připojením na &lt;port&gt; (výchozí: 5938 nebo testovací síť: 55938)</translation>
     </message>
@@ -2800,42 +2719,37 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>Použít testovací síť (testnet)</translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-23"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Přijímat spojení zvenčí (výchozí: 1, pokud není zadáno -proxy nebo -connect)</translation>
     </message>
     <message>
-        <location line="-28"/>
+        <location line="+160"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
         <translation>Při nastavování naslouchacího RPC portu %u pro IPv6 nastala chyba, vracím se k IPv4: %s</translation>
     </message>
     <message>
-        <location line="+94"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Nastav maximální velikost high-priority/low-fee transakcí v bajtech (výchozí: 27000)</translation>
-    </message>
-    <message>
-        <location line="+15"/>
+        <location line="-84"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
         <translation>Upozornění: -paytxfee je nastaveno velmi vysoko! Toto je transakční poplatek, který zaplatíš za každou poslanou transakci.</translation>
     </message>
     <message>
-        <location line="-104"/>
+        <location line="+46"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Rubycoin will not work properly.</source>
         <translation>Upozornění: Zkontroluj prosím datum a čas tvého počítače! Pokud jdou tvé hodiny špatně, tak Rubycoin nebude pracovat správně. </translation>
     </message>
     <message>
-        <location line="+132"/>
+        <location line="-19"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
         <translation>Upozornění: nastala chyba při čtení souboru wallet.dat! Všechny klíče se přečetly správně, ale data o transakcích nebo záznamy v adresáři mohou chybět či být nesprávné.</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-16"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>Upozornění: soubor wallet.dat je poškozený, data jsou však zachráněna! Původní soubor wallet.dat je uložený jako wallet.{timestamp}.bak v %s. Pokud je stav tvého účtu nebo transakce nesprávné, zřejmě bys měl obnovit zálohu.</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-31"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation>Pokusit se zachránit soukromé klíče z poškozeného souboru wallet.dat</translation>
     </message>
@@ -2845,7 +2759,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>Možnosti vytvoření bloku:</translation>
     </message>
     <message>
-        <location line="-68"/>
+        <location line="-66"/>
         <source>Connect only to the specified node(s)</source>
         <translation>Připojit se pouze k zadanému uzlu (příp. zadaným uzlům)</translation>
     </message>
@@ -2855,17 +2769,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>Zjistit vlastní IP adresu (výchozí: 1, pokud naslouchá a není zadáno -externalip)</translation>
     </message>
     <message>
-        <location line="+102"/>
+        <location line="+97"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Nepodařilo se naslouchat na žádném portu. Použij -listen=0, pokud to byl tvůj záměr.</translation>
     </message>
     <message>
-        <location line="-92"/>
-        <source>Sync checkpoints policy (default: strict)</source>
-        <translation>Synchronizuj politiku kontrolních bodů (výchozí: přísný)</translation>
-    </message>
-    <message>
-        <location line="+90"/>
+        <location line="-2"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
         <translation>Neplatná -tor adresa: &apos;%s&apos;</translation>
     </message>
@@ -2875,7 +2784,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>Neplatná částka pro -reservebalance=&lt;amount&gt;</translation>
     </message>
     <message>
-        <location line="-89"/>
+        <location line="-85"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
         <translation>Maximální velikost přijímacího bufferu pro každé spojení, &lt;n&gt;*1000 bajtů (výchozí: 5000)</translation>
     </message>
@@ -2885,27 +2794,27 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>Maximální velikost odesílacího bufferu pro každé spojení, &lt;n&gt;*1000 bajtů (výchozí: 1000)</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-16"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
         <translation>Připojit se pouze k uzlům v &lt;net&gt; síti (IPv4, IPv6 nebo Tor)</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+30"/>
         <source>Prepend debug output with timestamp</source>
         <translation>Před ladící výstup přidej časové razítko</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+36"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation>Možnosti SSL: (viz instrukce nastavení SSL v Bitcoin Wiki)</translation>
     </message>
     <message>
-        <location line="-38"/>
+        <location line="-34"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Posílat stopovací/ladicí informace do konzole místo do souboru debug.log</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+33"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
         <translation>Nastav maximální velikost bloku v bajtech (výchozí: 250000)</translation>
     </message>
@@ -2915,24 +2824,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>Nastavit minimální velikost bloku v bajtech (výchozí: 0)</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-33"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Při spuštění klienta zmenšit soubor debug.log (výchozí: 1, pokud není zadáno -debug)</translation>
     </message>
     <message>
-        <location line="-42"/>
+        <location line="-41"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>Zadej časový limit spojení v milisekundách (výchozí: 5000)</translation>
     </message>
     <message>
-        <location line="+116"/>
-        <source>Unable to sign checkpoint, wrong checkpointkey?
-</source>
-        <translation>Není možné podepsat kontrolní bod, špatný kontrolní bod?
-</translation>
-    </message>
-    <message>
-        <location line="-87"/>
+        <location line="+28"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
         <translation>Použít UPnP k namapování naslouchacího portu (výchozí: 0)</translation>
     </message>
@@ -2942,17 +2844,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>Použít UPnP k namapování naslouchacího portu (výchozí: 1, pokud naslouchá)</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-25"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
         <translation>Použij proxy k dosažení skrytých Tor služeb (výchozí: stejné jako -proxy)</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+45"/>
         <source>Username for JSON-RPC connections</source>
         <translation>Uživatelské jméno pro JSON-RPC spojení</translation>
     </message>
     <message>
-        <location line="+54"/>
+        <location line="+50"/>
         <source>Verifying database integrity...</source>
         <translation>Ověřování integrity databáze...</translation>
     </message>
@@ -2977,7 +2879,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-15"/>
         <source>Warning</source>
         <translation type="unfinished"/>
     </message>
@@ -2987,27 +2889,22 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+2"/>
-        <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
-        <translation>UPOZORNĚNÍ: detekováno porušení synchronizovaného kontrolního bodu, ale bylo to přeskočeno!</translation>
-    </message>
-    <message>
-        <location line="-1"/>
+        <location line="-7"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
         <translation>Upozornění: tahle verze je zastaralá, měl bys ji aktualizovat!</translation>
     </message>
     <message>
-        <location line="-53"/>
+        <location line="-23"/>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>Soubor wallet.dat je poškozen, jeho záchrana se nezdařila</translation>
     </message>
     <message>
-        <location line="-59"/>
+        <location line="-55"/>
         <source>Password for JSON-RPC connections</source>
         <translation>Heslo pro JSON-RPC spojení</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="-47"/>
         <source>Connect through SOCKS5 proxy</source>
         <translation type="unfinished"/>
     </message>
@@ -3017,7 +2914,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>Synchronizuj čas s ostatními uzly, Vypni, pokud máš v systému přesný čas, např. synchronizací pomocí NTP (výchozí: 1)</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+12"/>
         <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
         <translation>Při vytváření transakci ignoruj vstupy s hodnotou menší než tato (výchozí: 0.01)</translation>
     </message>
@@ -3077,7 +2974,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>Vyžadovat potvrzení změn (výchozí: 0)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
         <translation>Vyvolat příkaz, když je přijato příslušné upozornění (%s in cmd je nahrazeno zprávou)</translation>
     </message>
@@ -3107,7 +3004,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>Importuj bloky z externího blk000?.dat souboru</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+1"/>
+        <source>Keep at most &lt;n&gt; MiB of unconnectable blocks in memory (default: %u)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
         <translation>Použít OpenSSL (https) pro JSON-RPC spojení</translation>
     </message>
@@ -3132,17 +3034,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+20"/>
         <source>Error loading block database</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+29"/>
         <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
         <translation>Chyba: Peněženka odemčena pouze pro stakování, není možné vytvářet transakce.</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="-14"/>
         <source>Error: Disk space is low!</source>
         <translation type="unfinished"/>
     </message>
@@ -3152,32 +3054,27 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+3"/>
-        <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation>UPOZORNĚNÍ: Nalezen neplatný kontrolní bod! Zobrazené transakce nemusí být správné! Možná budeš muset provést aktualizaci, nebo kontaktovat vývojáře.</translation>
-    </message>
-    <message>
-        <location line="-174"/>
+        <location line="-135"/>
         <source>This help message</source>
         <translation>Tato nápověda</translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+100"/>
         <source>Wallet %s resides outside data directory %s.</source>
         <translation>Peněženka %s je umístěna mimo datový adresář %s.</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+46"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
         <translation>Nedaří se mi připojit na %s na tomhle počítači (operace bind vrátila chybu %d, %s)</translation>
     </message>
     <message>
-        <location line="-131"/>
+        <location line="-136"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Povolit DNS dotazy pro -addnode (přidání uzlu), -seednode a -connect (připojení)</translation>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+121"/>
         <source>Loading addresses...</source>
         <translation>Načítám adresy...</translation>
     </message>
@@ -3202,7 +3099,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>Chyba při načítání wallet.dat</translation>
     </message>
     <message>
-        <location line="-16"/>
+        <location line="-15"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
         <translation>Neplatná -proxy adresa: &apos;%s&apos;</translation>
     </message>
@@ -3242,38 +3139,28 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>Nedostatek prostředků</translation>
     </message>
     <message>
-        <location line="-40"/>
+        <location line="-41"/>
         <source>Loading block index...</source>
         <translation>Načítám index bloků...</translation>
     </message>
     <message>
-        <location line="-111"/>
+        <location line="-105"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Přidat uzel, ke kterému se připojit a snažit se spojení udržet</translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+131"/>
         <source>Unable to bind to %s on this computer. Rubycoin is probably already running.</source>
         <translation>Nemůžu se svázat s %s na tomto počítači. Rubycoin nejspíše již běží.</translation>
     </message>
     <message>
-        <location line="-102"/>
+        <location line="-108"/>
         <source>Fee per KB to add to transactions you send</source>
         <translation>Přidej poplatek za KB do transakcí, které odesíláš</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <source>Minimize weight consumption (experimental) (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
+        <location line="+40"/>
         <source>How many blocks to check at startup (default: 500, 0 = all)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3302,7 +3189,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+15"/>
         <source>Loading wallet...</source>
         <translation>Načítám peněženku...</translation>
     </message>
@@ -3327,17 +3214,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Rubycoin Alert&quot; admin@foo
         <translation>Načítání dokončeno</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="+33"/>
         <source>To use the %s option</source>
         <translation>K použití volby %s</translation>
     </message>
     <message>
-        <location line="+188"/>
+        <location line="-27"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location line="-18"/>
+        <location line="+22"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
