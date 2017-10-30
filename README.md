@@ -6,49 +6,47 @@ There is no government, company, or bank in charge of Rubycoin. As such, it is m
 
 With Rubycoin, you can be your own bank on a decentralized network. Each user with a balance plays an important role in keeping the network fast, secure, and energy-efficient. Interest is automatically earned by every user that participates.
 
-# Ubuntu Build Instructions
+## Ubuntu / Debian
 
 * Install dependencies
 
-`sudo apt-get install build-essential libssl-dev libdb++-dev libboost-all-dev make`
+        sudo apt-get install build-essential libssl-dev libdb++-dev libboost-all-dev make
 
 * Clone from Github to get the source code:
 
-`git clone https://github.com/rubycoinorg/rubycoin`
+        git clone https://github.com/rubycoinorg/rubycoin
 
 * Now you should be able to build rubycoind:
 
-`cd rubycoin/src`
+        cd rubycoin/src
+        make -f makefile.unix
 
-`make -f makefile.unix`
 
+## OSX
 
-# OSX Build Instructions
-
-* Install XCode with all the options checked. The current version is available from http://developer.apple.com
+* Install XCode with all the options checked. Download from https://developer.apple.com
 
 * Clone from Github to get the source code:
 
-`git clone https://github.com/rubycoinorg/rubycoin`
+        git clone https://github.com/rubycoinorg/rubycoin
 
-* Download and install MacPorts from http://www.macports.org/
+* Download and install MacPorts from https://www.macports.org
 
 * Install dependencies
 
-`sudo port install boost db48 openssl`
+        sudo port install boost db48 openssl
 
 * Optionally install qrencode (and set USE_QRCODE=1)
 
-`sudo port install qrencode`
+        sudo port install qrencode
 
 * Now you should be able to build rubycoind:
 
-`cd rubycoin/src`
+        cd rubycoin/src
+        make -f makefile.osx
 
-`make -f makefile.osx`
 
-
-# Getting Started
+## Getting Started
 Run:
   `./rubycoind --help`  # List of command-line options.
 
