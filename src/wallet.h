@@ -24,6 +24,7 @@
 extern int64_t nTransactionFee;
 extern int64_t nReserveBalance;
 extern int64_t nMinimumInputValue;
+extern int64_t nStakeCombineThreshold;
 extern bool fWalletUnlockStakingOnly;
 extern bool fConfChange;
 

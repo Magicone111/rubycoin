@@ -19,12 +19,11 @@
 using namespace std;
 
 // Settings
+int64_t nStakeCombineThreshold = 500 * COIN;
+int64_t nStakeSplitThreshold = 2 * nStakeCombineThreshold;
 int64_t nTransactionFee = MIN_TX_FEE;
 int64_t nReserveBalance = 0;
 int64_t nMinimumInputValue = 0;
-
-static int64_t GetStakeCombineThreshold() { return 500 * COIN; }
-static int64_t GetStakeSplitThreshold() { return 2 * GetStakeCombineThreshold(); }
 
 //////////////////////////////////////////////////////////////////////////////
 //
@@ -1687,14 +1686,14 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
         if (txNew.vout.size() == 2 && ((pcoin.first->vout[pcoin.second].scriptPubKey == scriptPubKeyKernel || pcoin.first->vout[pcoin.second].scriptPubKey == txNew.vout[1].scriptPubKey))
             && pcoin.first->GetHash() != txNew.vin[0].prevout.hash)
         {
-            // Stop adding more inputs if already too many inputs
+            // Too many already
             if (txNew.vin.size() >= 10)
                 break;
-            // Stop adding inputs if reached reserve limit
+            // Reserve limit reached
             if (nCredit + pcoin.first->vout[pcoin.second].nValue > nBalance - nReserveBalance)
                 break;
-            // Do not add additional significant input
-            if (pcoin.first->vout[pcoin.second].nValue >= GetStakeCombineThreshold())
+            // Stake combine limit reached
+            if (pcoin.first->vout[pcoin.second].nValue >= nStakeCombineThreshold)
                 continue;
 
             txNew.vin.push_back(CTxIn(pcoin.first->GetHash(), pcoin.second));
@@ -1712,7 +1711,7 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
         nCredit += nReward;
     }
 
-    if (nCredit >= GetStakeSplitThreshold())
+    if (nCredit >= nStakeSplitThreshold)
         txNew.vout.push_back(CTxOut(0, txNew.vout[1].scriptPubKey)); // split stake
 
     // Set output amount
