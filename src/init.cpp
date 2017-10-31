@@ -245,7 +245,7 @@ std::string HelpMessage()
     strUsage += "  -checklevel=<n>        " + _("How thorough the block verification is (0-6, default: 1)") + "\n";
     strUsage += "  -loadblock=<file>      " + _("Imports blocks from external blk000?.dat file") + "\n";
     strUsage += "  -maxorphanblocksmib=<n> " + strprintf(_("Keep at most <n> MiB of unconnectable blocks in memory (default: %u)"), DEFAULT_MAX_ORPHAN_BLOCKS) + "\n";
-    strUsage += "  -datacarriersize       " + strprintf(_("Maximum size of data in carrier transactions to relay (default: %u)"), MAX_OP_RETURN_RELAY) + "\n";
+    strUsage += "  -datacarrier=<n>       " + strprintf(_("Maximum size of data in carrier transactions to relay (default: %u)"), MAX_OP_RETURN_RELAY) + "\n";
     strUsage += "  -stakecombine=<amt>    " + strprintf(_("Maximum total value of inputs to combine when staking (default: %u)"), nStakeCombineThreshold / COIN) + "\n";
 
     strUsage += "\n" + _("Block creation options:") + "\n";
@@ -446,7 +446,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     }
 #endif
 
-    nMaxDataCarrierBytes = GetArg("-datacarriersize", nMaxDataCarrierBytes);
+    nMaxDataCarrierBytes = GetArg("-datacarrier", nMaxDataCarrierBytes);
     nStakeCombineThreshold = GetArg("-stakecombine", nStakeCombineThreshold * COIN);
 
     // ********************************************************* Step 4: application initialization: dir lock, daemonize, pidfile, debug log
