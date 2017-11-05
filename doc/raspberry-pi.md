@@ -1,13 +1,14 @@
 Staking on a Raspberry Pi
 ===================================
 
-The Raspberry Pi is a series of small single-board computers intended to promote the teaching of basic computer science in schools and in developing countries. Rubycoin can stake on these devices.
+The Raspberry Pi is a series of small single-board computers intended to promote the teaching of basic computer science in schools and developing countries. Rubycoin can stake on these devices.
+
 
 ## Raspbian
 
 * Increase swap memory
 
-        sudo sed -i 's/CONF_SWAPSIZE=100/CONF_SWAPSIZE=1024/g' /etc/dphys-swapfile
+        $ sudo sed -i 's/CONF_SWAPSIZE=100/CONF_SWAPSIZE=1024/g' /etc/dphys-swapfile
 
 * Restart service
 
@@ -27,7 +28,7 @@ The Raspberry Pi is a series of small single-board computers intended to promote
 
         $ sudo raspi-config
 
-* Install Rubycoin
+* Compile Rubycoin
 
         $ git clone https://github.com/rubycoinorg/rubycoin
         $ cd rubycoin/src
@@ -35,7 +36,9 @@ The Raspberry Pi is a series of small single-board computers intended to promote
 
 * Edit config
 
-        $ sh -c "echo 'rpcuser=YOUR_RPC_USERNAME\nrpcpassword=YOUR_RPC_PASSWORD'" >> ~/.rubycoin_v2.conf
+        $ mkdir ~/.rubycoin_v2
+        $ sh -c "echo 'rpcuser=rubycoinrpc'" >> ~/.rubycoin_v2/rubycoin.conf
+        $ sh -c "echo 'rpcpassword=YOUR_RPC_PASSWORD'" >> ~/.rubycoin_v2/rubycoin.conf
 
 * Start rubycoind
 
@@ -44,8 +47,8 @@ The Raspberry Pi is a series of small single-board computers intended to promote
 * Verify syncing
 
         $ ./rubycoind getinfo
-            "blocks" : 12345,
-            "connections" : 8,
+        "blocks" : 12345
+        "connections" : 8
      
 
 * Encrypt wallet
@@ -60,18 +63,20 @@ The Raspberry Pi is a series of small single-board computers intended to promote
 
         $ ./rubycoind getnewaddress
 
+
 ## Swap memory
 
 After compiling, swap memory should be decreased back to the default value.
 
 * Decrease swap memory
 
-        sudo sed -i 's/CONF_SWAPSIZE=1024/CONF_SWAPSIZE=100/g' /etc/dphys-swapfile
+        $ sudo sed -i 's/CONF_SWAPSIZE=1024/CONF_SWAPSIZE=100/g' /etc/dphys-swapfile
 
 * Restart service
 
         $ sudo /etc/init.d/dphys-swapfile stop
         $ sudo /etc/init.d/dphys-swapfile start
+
 
 ## External drive
 
@@ -81,3 +86,18 @@ Compile time can be improved by using an external drive.
 
         $ mkdir ~/.rubycoin_v2
         $ sudo mount /dev/sdXY ~/.rubycoin_v2
+
+
+## Desktop wallet
+
+A graphical interface for the Rubycoin wallet is optionally available.
+
+* Install dependencies
+
+        $ sudo apt install qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools
+
+* Compile Rubycoin
+
+        $ cd rubycoin
+        $ qmake
+        $ make

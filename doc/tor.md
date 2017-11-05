@@ -6,46 +6,50 @@ Rubycoin can be run as a hidden service.
 
 ## Ubuntu / Debian
 
-* Installation
+* Install Tor
 
-        sudo apt-get install tor
+        $ sudo apt-get install tor
 
 * Prepare folder
 
-        mkdir /var/lib/tor/hidden_service
-        chmod 700 /var/lib/tor/hidden_service
-        chown debian-tor:debian-tor /var/lib/tor/hidden_service
+        $ mkdir /var/lib/tor/hidden_service
+        $ chmod 700 /var/lib/tor/hidden_service
+        $ chown debian-tor:debian-tor /var/lib/tor/hidden_service
 
 * Edit /etc/tor/torrc
 
-        DataDirectory /var/lib/tor
-        HiddenServicePort 5937 127.0.0.1:5937
-        HiddenServiceDir /var/lib/tor/hidden_service/
+        $ sh -c "echo 'DataDirectory /var/lib/tor'" >> /etc/tor/torrc
+        $ sh -c "echo 'HiddenServicePort 5937 127.0.0.1:5937'" >> /etc/tor/torrc
+        $ sh -c "echo 'HiddenServiceDir /var/lib/tor/hidden_service/'" >> /etc/tor/torrc
 
 * Restart service
 
-        service tor restart
+        $ service tor restart
 
 * Get onion address (for the next step)
 
-        cat /var/lib/tor/hidden_service/hostname
+        $ cat /var/lib/tor/hidden_service/hostname
 
-* Edit rubycoin.conf
+* Edit config
 
-        listen=1
-        discover=1
-        tor=127.0.0.1:9050
-        externalip=o4aggcyknrekoce2.onion
+        $ mkdir ~/.rubycoin_v2
+        $ sh -c "echo 'rpcuser=rubycoinrpc'" >> ~/.rubycoin_v2/rubycoin.conf
+        $ sh -c "echo 'rpcpassword=YOUR_RPC_PASSWORD'" >> ~/.rubycoin_v2/rubycoin.conf
+        $ sh -c "echo 'externalip=YOUR_TOR_HOSTNAME.onion'" >> ~/.rubycoin_v2/rubycoin.conf
+        $ sh -c "echo 'listen=1\ndiscover=1\ntor=127.0.0.1:9050'" >> ~/.rubycoin_v2/rubycoin.conf
 
 * Restart rubycoind
 
-        ./rubycoind stop
-        ./rubycoind -daemon
+        $ ./rubycoind stop
+        $ ./rubycoind -daemon
 
-* Confirm
+* Verify syncing
 
-        ./rubycoind getinfo
-        "ip" : "o4aggcyknrekoce2.onion"
+        $ ./rubycoind getinfo
+        "blocks" : 12345
+        "connections" : 8
+        "ip" : "YOUR_TOR_HOSTNAME.onion"
+
 
 ## Privacy
 
