@@ -15,14 +15,18 @@ The Raspberry Pi is a series of small single-board computers intended to promote
         $ sudo /etc/init.d/dphys-swapfile stop
         $ sudo /etc/init.d/dphys-swapfile start
 
-* Edit source
-
-        $ sudo sed -i 's/jessie/stretch/g' /etc/apt/sources.list
-        $ sudo apt update
-
 * Install dependencies
 
-        $ sudo apt install git build-essential libssl-dev libdb++-dev libboost-all-dev make
+        $ sudo apt install git build-essential libdb++-dev libboost-all-dev make
+                
+* Edit source
+
+        $ sudo sed -i 's/stretch/jessie/g' /etc/apt/sources.list
+        $ sudo apt update
+
+* Install dependency
+
+        $ sudo apt install libssl-dev
 
 * Set timezone and locale under localization options
 
