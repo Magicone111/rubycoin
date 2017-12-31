@@ -17,8 +17,9 @@ The Raspberry Pi is a series of small single-board computers intended to promote
 
 * Install dependencies
 
+        $ sudo apt update
         $ sudo apt install git build-essential libdb++-dev libboost-all-dev make
-                
+
 * Edit source
 
         $ sudo sed -i 's/stretch/jessie/g' /etc/apt/sources.list
@@ -53,7 +54,6 @@ The Raspberry Pi is a series of small single-board computers intended to promote
         $ ./rubycoind getinfo
         "blocks" : 12345
         "connections" : 8
-     
 
 * Encrypt wallet
 
