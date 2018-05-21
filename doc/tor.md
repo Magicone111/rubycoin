@@ -18,9 +18,8 @@ Rubycoin can be run as a hidden service.
 
 * Edit /etc/tor/torrc
 
-        $ sh -c "echo 'DataDirectory /var/lib/tor'" >> /etc/tor/torrc
-        $ sh -c "echo 'HiddenServicePort 5937 127.0.0.1:5937'" >> /etc/tor/torrc
-        $ sh -c "echo 'HiddenServiceDir /var/lib/tor/hidden_service/'" >> /etc/tor/torrc
+        $ sed -i '0,/#HiddenServiceDir/s//HiddenServiceDir/' /etc/tor/torrc
+        $ sed -i '0,/#HiddenServicePort 80 127.0.0.1:80/s//HiddenServicePort 5937 127.0.0.1:5937/' /etc/tor/torrc
 
 * Restart service
 
@@ -32,9 +31,6 @@ Rubycoin can be run as a hidden service.
 
 * Edit config
 
-        $ mkdir ~/.rubycoin_v2
-        $ sh -c "echo 'rpcuser=rubycoinrpc'" >> ~/.rubycoin_v2/rubycoin.conf
-        $ sh -c "echo 'rpcpassword=YOUR_RPC_PASSWORD'" >> ~/.rubycoin_v2/rubycoin.conf
         $ sh -c "echo 'externalip=YOUR_TOR_HOSTNAME.onion'" >> ~/.rubycoin_v2/rubycoin.conf
         $ sh -c "echo 'listen=1\ndiscover=1\ntor=127.0.0.1:9050'" >> ~/.rubycoin_v2/rubycoin.conf
 
