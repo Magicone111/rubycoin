@@ -88,6 +88,8 @@ public:
 
         vSeeds.push_back(CDNSSeedData("earth.rubycoin.org", "neptune.rubycoin.org"));
         vSeeds.push_back(CDNSSeedData("moon.rubycoin.org", "pluto.rubycoin.org"));
+        vSeeds.push_back(CDNSSeedData("zulu.prettyblock.com", "tango.prettyblock.com"));
+        vSeeds.push_back(CDNSSeedData("yankee.prettyblock.com", "delta.prettyblock.com"));
         
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,85);
