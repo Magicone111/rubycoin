@@ -6,17 +6,19 @@
 # Mac OS X makefile for Rubycoin
 
 CXX=llvm-g++
-DEPSDIR=/opt/local
+DEPSDIR=/usr/local/opt
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
  -I"$(CURDIR)"/obj \
- -I"$(DEPSDIR)/include" \
- -I"$(DEPSDIR)/include/db48"
+ -I"$(DEPSDIR)/berekeley-db@4/include" \
+ -I"$(DEPSDIR)/openssl/include"
 
 LIBPATHS= \
- -L"$(DEPSDIR)/lib" \
- -L"$(DEPSDIR)/lib/db48"
+ -L"$(DEPSDIR)/" \
+ -L"$(DEPSDIR)/berkeley-db@4/lib" \
+ -L"$(DEPSDIR)/boost@1.57/lib" \
+ -L"$(DEPSDIR)/openssl/lib"
 
 USE_UPNP:=-
 USE_WALLET:=1
@@ -26,14 +28,14 @@ LIBS= -dead_strip
 ifdef STATIC
 # Build STATIC if you are redistributing the rubycoind binary
 LIBS += \
- $(DEPSDIR)/lib/libsodium.a \
- $(DEPSDIR)/lib/db48/libdb_cxx-4.8.a \
- $(DEPSDIR)/lib/libboost_system-mt.a \
- $(DEPSDIR)/lib/libboost_filesystem-mt.a \
- $(DEPSDIR)/lib/libboost_program_options-mt.a \
- $(DEPSDIR)/lib/libboost_thread-mt.a \
- $(DEPSDIR)/lib/libssl.a \
- $(DEPSDIR)/lib/libcrypto.a \
+ $(DEPSDIR)/libsodium/lib/libsodium.a \
+ $(DEPSDIR)/berkeley-db@4/lib/libdb_cxx-4.8.a \
+ $(DEPSDIR)/boost@1.57/lib/libboost_system-mt.a \
+ $(DEPSDIR)/boost@1.57/lib/libboost_filesystem-mt.a \
+ $(DEPSDIR)/boost@1.57/lib/libboost_program_options-mt.a \
+ $(DEPSDIR)/boost@1.57/lib/libboost_thread-mt.a \
+ $(DEPSDIR)/openssl/lib/libssl.a \
+ $(DEPSDIR)/openssl/lib/libcrypto.a \
  -lz
 else
 LIBS += \
@@ -54,7 +56,7 @@ ifdef RELEASE
 # Compile for maximum compatibility and smallest size.
 # This requires that dependencies are compiled
 # the same way.
-CFLAGS = -mmacosx-version-min=10.5 -arch x86_64 -O2 -msse2
+CFLAGS = -mmacosx-version-min=10.13 -arch x86_64 -O2 -msse2
 else
 CFLAGS = -g -msse2
 endif
