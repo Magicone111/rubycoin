@@ -11,7 +11,7 @@ With Rubycoin, you can be your own bank on a decentralized network. Each user wi
 
 * Install dependencies
 
-        $ sudo apt-get install build-essential libssl-dev libdb++-dev libboost-all-dev make
+        $ sudo apt-get install build-essential libsodium-dev libssl-dev libdb++-dev libboost-all-dev make
 
 * Clone from Github to get the source code:
 
@@ -31,20 +31,31 @@ With Rubycoin, you can be your own bank on a decentralized network. Each user wi
 
         $ git clone https://github.com/rubycoinorg/rubycoin
 
-* Download and install MacPorts from https://www.macports.org
+* Download and install Homebrew from https://brew.sh
 
 * Install dependencies
 
-        $ sudo port install boost db48 openssl
+        $ brew install boost@1.57 berkeley-db4 libsodium openssl
+        $ brew link boost@1.57 berkeley-db@4 libsodium openssl --force
+
+* Optionally install qt (for Rubycoin-Qt)
+
+        $ brew install qt@5.5 && brew link qt@5.5 --force
 
 * Optionally install qrencode (and set USE_QRCODE=1)
 
-        $ sudo port install qrencode
+        $ brew install qrencode && brew link qrencode --force
 
 * Now you should be able to build rubycoind:
 
         $ cd rubycoin/src
         $ make -f makefile.osx
+
+* Or rubycoin-qt:
+
+        $ cd rubycoin
+        $ qmake -o Makefile "USE_UPNP=-" BOOST_LIB_SUFFIX=-mt BDB_LIB_SUFFIX=-4.8
+        $ make
 
 
 ## Getting Started

@@ -26,6 +26,7 @@ LIBS= -dead_strip
 ifdef STATIC
 # Build STATIC if you are redistributing the rubycoind binary
 LIBS += \
+ $(DEPSDIR)/lib/libsodium.a \
  $(DEPSDIR)/lib/db48/libdb_cxx-4.8.a \
  $(DEPSDIR)/lib/libboost_system-mt.a \
  $(DEPSDIR)/lib/libboost_filesystem-mt.a \
@@ -36,6 +37,7 @@ LIBS += \
  -lz
 else
 LIBS += \
+ -lsodium \
  -ldb_cxx-4.8 \
  -lboost_system-mt \
  -lboost_filesystem-mt \
