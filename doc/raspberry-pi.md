@@ -18,16 +18,7 @@ The Raspberry Pi is a series of small single-board computers intended to promote
 * Install dependencies
 
         $ sudo apt update
-        $ sudo apt install git build-essential libdb++-dev libboost-all-dev make
-
-* Edit source
-
-        $ sudo sed -i 's/stretch/jessie/g' /etc/apt/sources.list
-        $ sudo apt update
-
-* Install dependency
-
-        $ sudo apt install libssl-dev
+        $ sudo apt install git build-essential libdb++-dev libboost-all-dev libsodium-dev libssl1.0-dev make
 
 * Set timezone and locale under localization options
 
@@ -105,3 +96,14 @@ A graphical interface for the Rubycoin wallet is optionally available.
         $ cd rubycoin
         $ qmake
         $ make
+
+## Troubleshooting
+
+If you encounter:
+
+        E: You don't have enough free space in /var/cache/apt/archives/.
+
+Remove unnecessary installation files:
+
+        $ sudo apt clean
+
